@@ -1,0 +1,521 @@
+@mixin ease-animation($element, $seconds) {
+    -webkit-transition: $element $seconds ease-in-out;
+    -moz-transition: $element $seconds ease-in-out;
+    -ms-transition: $element $seconds ease-in-out;
+    -o-transition: $element $seconds ease-in-out;
+    transition: $element $seconds ease-in-out;
+}
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+$pink: #F7B4BA;
+$light_pink: #ffeaed;
+$red_pink: #C74057;
+$purple: #3B55E6;
+$background_gray: #f8f9fa;
+$dark_adobe_gray: #262626;
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    padding: 55px 0 0 0;
+}
+
+.navbar-brand img {
+    width: 60%;
+}
+
+.nav-link {
+    /*text-transform: uppercase;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.navbar-brand.js-scroll-trigger {
+    width: 200px;
+}
+
+.ml-auto {
+    margin-top: 10px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 991px) {
+    .fixed-top {
+        border-bottom: 1px solid lighten($dark_adobe_gray, 10%);
+    }
+    .navbar-brand img {
+        width: 50%;
+    }
+    .nav-link {
+        margin: 0px;
+    }
+}
+
+
+/* NAV LINKS EFFECT UNDERLINE */
+
+.cl-effect-3 a::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.cl-effect-3 a:hover::after,
+.cl-effect-3 a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.container-fluid {
+    max-width: 1600px;
+}
+
+#makeup {
+    padding: 55px 0 0 0;
+}
+
+.fa,
+a {
+    color: lighten($dark_adobe_gray, 20%);
+    &:hover,
+    &:active,
+    &:focus {
+        color: $pink;
+    }
+}
+
+.list-inline-item {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 1px
+}
+
+.xs-text {
+    font-size: 11px;
+}
+
+.capsLock {
+    text-transform: uppercase;
+}
+
+.lg-text {
+    font-size: 18px;
+}
+
+.marginTop {
+    margin-top: 10px;
+}
+
+.zeroPadding {
+    padding: 0;
+}
+
+.zeroMargin {
+    margin: 0;
+}
+
+.capsLock {
+    text-transform: uppercase;
+}
+
+.carousel-caption {
+    width: 300px;
+    top: 200px;
+    font-family: 'Radley', serif;
+}
+
+.carousel-caption h3 {
+    font-size: 3em;
+}
+
+.carousel-caption.right {
+    left: auto;
+    right: -300px;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+.card-text {
+    height: 120px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.navbar-toggler {}
+
+#services {
+    background-color: #fff!important;
+}
+
+
+/*
+
+CONTACT FORM
+
+*/
+
+section#contact {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-heading {
+    color: black;
+    margin: 15px;
+    text-transform: uppercase;
+    font-family: lato;
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
+    font-size: 2em;
+}
+
+.section-subheading {
+    margin: 20px;
+}
+
+#contact {
+    padding: 70px;
+}
+
+.section-subheading.text-muted {
+    font-size: 90%;
+}
+
+
+/*from new york theme */
+
+
+/* Map */
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+.map iframe {
+    pointer-events: none;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+}
+
+.text-muted-footer {
+    font-size: 90%;
+}
+
+#to-top {
+    font-size: 1em;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    padding: 15px 20px;
+}
+
+.btn-outline-secondary {
+    background-color: darken($background_gray, 10%);
+    color: black;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 30px;
+    @include ease-animation(all, 0.2s);
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: lighten($pink, 10%);
+        color: black;
+    }
+}
+
+
+/*.price-list {
+    background-color: transparent;
+    margin: 60px 100px 20px 100px;
+    h2 {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        margin-bottom: 25px;
+    }
+}*/
+
+.priceList {
+    background-color: $light_pink;
+    padding: 100px;
+    width: 800px;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    font-family: lato;
+}
+
+.hr-prislista {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+}
+
+.type {
+    font-size: 16px;
+}
+
+.pris {
+    font-size: 14px
+}
+
+.container.prislista {
+    margin-top: 30px;
+}
+
+.row.prislista {
+    margin-top: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fa-quote-left {
+    font-size: 20px;
+    color: $pink;
+    margin: 20px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.quote-item {
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+
+/*
+
+IF I WANT WHITE BACKGROUND
+
+.quote-item {
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 5px 20px;
+}
+*/
+
+.quote-sign {
+    font-style: italic;
+    color: $pink;
+}
+
+
+/* 
+
+AGENCY CONTACT FORM
+
+*/
+
+#contactForm {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#defaultBtn {
+    background-color: darken($background_gray, 10%);
+    /*border: 1px solid darken($background_gray, 10%);*/
+    padding: 1rem 2rem;
+    width: 227px;
+    margin-top: 10px;
+    color: black;
+    border-radius: 10px;
+    border-radius: 10px;
+    @include ease-animation(all, 0.2s);
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: lighten($pink, 10%);
+        color: black;
+    }
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 20px;
+}
+
+textarea {
+    padding: 20px;
+}
+
+input.form-control {
+    height: auto;
+}
+
+textarea.form-control {
+    height: 166px;
+}
+
+.form-control:focus {
+    border: 2px solid lighten($pink, 10%);
+    box-shadow: none;
+}
+
+#prices {
+    background-color: $background_gray;
+    padding: 0;
+}
+
+
+/* PRICE LIST */
+
+.fill {
+    width: 100%;
+    height: 810px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.opacity {
+    opacity: 0.3;
+}
+
+
+/* INSTAGRAM FEED STARTS HERE */
+
+
+/*.container.insta {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 0 auto;
+}
+
+@media only screen and (min-width: 771px) and (max-width: 1000px) {
+    #instafeed {
+        width: 720px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 770px) {
+    #instafeeed {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #instafeeed {
+        width: 240px;
+    }
+}
+
+
+#instafeed {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 30px auto 30px auto;
+}
+*/
+
+#instaLink {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: lato;
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
+}
+
+#instafeed {
+    margin: 50px 0;
+}
+
+.instaimg img {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.instaimg img:hover {
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
