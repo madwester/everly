@@ -24,6 +24,10 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+section {
+    padding: 110px 0;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -287,6 +291,10 @@ footer {
     padding: 15px 20px;
 }
 
+.section-heading.footer {
+    font-size: 1.7em;
+}
+
 .btn-outline-secondary {
     background-color: darken($background_gray, 10%);
     color: black;
@@ -302,21 +310,11 @@ footer {
     }
 }
 
-
-/*.price-list {
-    background-color: transparent;
-    margin: 60px 100px 20px 100px;
-    h2 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        margin-bottom: 25px;
-    }
-}*/
-
 .priceList {
     background-color: $light_pink;
-    padding: 100px;
+    padding: 70px;
     width: 1000px;
-    margin: 100px auto 100px auto;
+    margin: 70px auto 70px auto;
     text-align: center;
     font-family: lato;
 }
@@ -360,6 +358,10 @@ footer {
     font-size: 20px;
     color: $pink;
     margin: 20px;
+}
+
+#about {
+    padding: 80px 0;
 }
 
 .quote {
@@ -447,7 +449,7 @@ textarea.form-control {
 }
 
 #prices {
-    background-color: $background_gray;
+    background-color: $dark_adobe_gray;
     padding: 0;
     color: $dark_adobe_gray;
 }
