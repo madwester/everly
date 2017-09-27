@@ -332,6 +332,8 @@ footer {
 /* line 314, ../sass/custom.scss */
 .priceList {
   background-color: #ffeaed;
+  opacity: 0.9;
+  opacity: 0.9;
   padding: 70px;
   width: 1000px;
   margin: 70px auto 70px auto;
@@ -339,14 +341,14 @@ footer {
   font-family: lato;
 }
 
-/* line 323, ../sass/custom.scss */
+/* line 324, ../sass/custom.scss */
 .hr-prislista {
   width: 100px;
   height: 2px;
   background-color: black;
 }
 
-/* line 329, ../sass/custom.scss */
+/* line 330, ../sass/custom.scss */
 .type {
   font-family: 'lato', sans-serif;
   margin-top: 30px;
@@ -354,51 +356,51 @@ footer {
   font-weight: 600;
 }
 
-/* line 336, ../sass/custom.scss */
+/* line 337, ../sass/custom.scss */
 .price-item {
   font-size: 16px;
   margin: 0;
 }
 
-/* line 341, ../sass/custom.scss */
+/* line 342, ../sass/custom.scss */
 .price-item.finstil {
   margin-top: 15px;
   font-size: 14px;
 }
 
-/* line 346, ../sass/custom.scss */
+/* line 347, ../sass/custom.scss */
 .container.prislista {
   margin-top: 30px;
 }
 
-/* line 350, ../sass/custom.scss */
+/* line 351, ../sass/custom.scss */
 .row.prislista {
   margin-top: 10px;
 }
 
-/* line 354, ../sass/custom.scss */
+/* line 355, ../sass/custom.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 358, ../sass/custom.scss */
+/* line 359, ../sass/custom.scss */
 .fa-quote-left {
   font-size: 20px;
   color: #F7B4BA;
   margin: 20px;
 }
 
-/* line 364, ../sass/custom.scss */
+/* line 365, ../sass/custom.scss */
 #about {
   padding: 80px 0;
 }
 
-/* line 368, ../sass/custom.scss */
+/* line 369, ../sass/custom.scss */
 .quote {
   font-style: italic;
 }
 
-/* line 372, ../sass/custom.scss */
+/* line 373, ../sass/custom.scss */
 .quote-item {
   padding-right: 90px;
   padding-left: 90px;
@@ -415,7 +417,7 @@ IF I WANT WHITE BACKGROUND
     padding: 5px 20px;
 }
 */
-/* line 390, ../sass/custom.scss */
+/* line 391, ../sass/custom.scss */
 .quote-sign {
   font-style: italic;
   color: #F7B4BA;
@@ -426,14 +428,14 @@ IF I WANT WHITE BACKGROUND
 AGENCY CONTACT FORM
 
 */
-/* line 402, ../sass/custom.scss */
+/* line 403, ../sass/custom.scss */
 #contactForm {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 408, ../sass/custom.scss */
+/* line 409, ../sass/custom.scss */
 #defaultBtn {
   background-color: #dae0e5;
   /*border: 1px solid darken($background_gray, 10%);*/
@@ -449,45 +451,45 @@ AGENCY CONTACT FORM
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 418, ../sass/custom.scss */
+/* line 419, ../sass/custom.scss */
 #defaultBtn:hover, #defaultBtn:active, #defaultBtn:focus {
   background-color: #fce2e4;
   color: black;
 }
 
-/* line 426, ../sass/custom.scss */
+/* line 427, ../sass/custom.scss */
 .form-group {
   margin-top: 20px;
   margin-bottom: 25px;
 }
 
-/* line 431, ../sass/custom.scss */
+/* line 432, ../sass/custom.scss */
 input {
   padding: 20px;
 }
 
-/* line 435, ../sass/custom.scss */
+/* line 436, ../sass/custom.scss */
 textarea {
   padding: 20px;
 }
 
-/* line 439, ../sass/custom.scss */
+/* line 440, ../sass/custom.scss */
 input.form-control {
   height: auto;
 }
 
-/* line 443, ../sass/custom.scss */
+/* line 444, ../sass/custom.scss */
 textarea.form-control {
   height: 166px;
 }
 
-/* line 447, ../sass/custom.scss */
+/* line 448, ../sass/custom.scss */
 .form-control:focus {
   border: 2px solid #fce2e4;
   box-shadow: none;
 }
 
-/* line 452, ../sass/custom.scss */
+/* line 453, ../sass/custom.scss */
 #prices {
   background-color: #262626;
   padding: 0;
@@ -495,7 +497,7 @@ textarea.form-control {
 }
 
 /* PRICE LIST */
-/* line 461, ../sass/custom.scss */
+/* line 462, ../sass/custom.scss */
 .fill {
   width: 100%;
   height: 810px;
@@ -506,7 +508,7 @@ textarea.form-control {
   -o-background-size: cover;
 }
 
-/* line 471, ../sass/custom.scss */
+/* line 472, ../sass/custom.scss */
 .opacity {
   opacity: 0.3;
 }
@@ -544,19 +546,19 @@ textarea.form-control {
     margin: 30px auto 30px auto;
 }
 */
-/* line 512, ../sass/custom.scss */
+/* line 513, ../sass/custom.scss */
 #instaLink {
   font-size: 24px;
   text-transform: uppercase;
   font-family: lato;
 }
 
-/* line 518, ../sass/custom.scss */
+/* line 519, ../sass/custom.scss */
 #instafeed {
   margin: 40px 0;
 }
 
-/* line 522, ../sass/custom.scss */
+/* line 523, ../sass/custom.scss */
 .instaimg img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -565,7 +567,7 @@ textarea.form-control {
   overflow: hidden;
 }
 
-/* line 530, ../sass/custom.scss */
+/* line 531, ../sass/custom.scss */
 .instaimg img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
