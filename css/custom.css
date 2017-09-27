@@ -205,20 +205,21 @@ a:focus {
 
 /* line 198, ../sass/custom.scss */
 .card-text {
-  height: 190px;
+  height: 250px;
+  font-size: 15px;
 }
 
-/* line 202, ../sass/custom.scss */
+/* line 203, ../sass/custom.scss */
 .btn {
   cursor: pointer;
 }
 
-/* line 206, ../sass/custom.scss */
+/* line 207, ../sass/custom.scss */
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-/* line 212, ../sass/custom.scss */
+/* line 213, ../sass/custom.scss */
 #services {
   background-color: #fff !important;
 }
@@ -228,13 +229,13 @@ a:focus {
 CONTACT FORM
 
 */
-/* line 223, ../sass/custom.scss */
+/* line 224, ../sass/custom.scss */
 section#contact {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 228, ../sass/custom.scss */
+/* line 229, ../sass/custom.scss */
 .section-heading {
   color: #262626;
   margin: 15px;
@@ -244,57 +245,57 @@ section#contact {
   font-size: 2em;
 }
 
-/* line 237, ../sass/custom.scss */
+/* line 238, ../sass/custom.scss */
 .section-subheading {
   margin: 20px;
 }
 
-/* line 241, ../sass/custom.scss */
+/* line 242, ../sass/custom.scss */
 #contact {
   padding: 70px;
 }
 
-/* line 245, ../sass/custom.scss */
+/* line 246, ../sass/custom.scss */
 .section-subheading.text-muted {
   font-size: 90%;
 }
 
 /*from new york theme */
 /* Map */
-/* line 255, ../sass/custom.scss */
+/* line 256, ../sass/custom.scss */
 #map {
   width: 100%;
   height: 500px;
 }
 
-/* line 260, ../sass/custom.scss */
+/* line 261, ../sass/custom.scss */
 .map {
   height: 500px;
 }
 
 @media (max-width: 768px) {
-  /* line 265, ../sass/custom.scss */
+  /* line 266, ../sass/custom.scss */
   .map {
     height: 75%;
   }
 }
-/* line 270, ../sass/custom.scss */
+/* line 271, ../sass/custom.scss */
 .map iframe {
   pointer-events: none;
 }
 
 /* Footer */
-/* line 277, ../sass/custom.scss */
+/* line 278, ../sass/custom.scss */
 footer {
   padding: 100px 0;
 }
 
-/* line 281, ../sass/custom.scss */
+/* line 282, ../sass/custom.scss */
 .text-muted-footer {
   font-size: 90%;
 }
 
-/* line 285, ../sass/custom.scss */
+/* line 286, ../sass/custom.scss */
 #to-top {
   font-size: 1em;
   position: fixed;
@@ -304,12 +305,12 @@ footer {
   padding: 15px 20px;
 }
 
-/* line 294, ../sass/custom.scss */
+/* line 295, ../sass/custom.scss */
 .section-heading.footer {
   font-size: 1.7em;
 }
 
-/* line 298, ../sass/custom.scss */
+/* line 299, ../sass/custom.scss */
 .btn-outline-secondary {
   background-color: #dae0e5;
   color: black;
@@ -322,13 +323,13 @@ footer {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 305, ../sass/custom.scss */
+/* line 306, ../sass/custom.scss */
 .btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:focus {
   background-color: #fce2e4;
   color: black;
 }
 
-/* line 313, ../sass/custom.scss */
+/* line 314, ../sass/custom.scss */
 .priceList {
   background-color: #ffeaed;
   padding: 70px;
@@ -338,14 +339,14 @@ footer {
   font-family: lato;
 }
 
-/* line 322, ../sass/custom.scss */
+/* line 323, ../sass/custom.scss */
 .hr-prislista {
   width: 100px;
   height: 2px;
   background-color: black;
 }
 
-/* line 328, ../sass/custom.scss */
+/* line 329, ../sass/custom.scss */
 .type {
   font-family: 'lato', sans-serif;
   margin-top: 30px;
@@ -353,51 +354,51 @@ footer {
   font-weight: 600;
 }
 
-/* line 335, ../sass/custom.scss */
+/* line 336, ../sass/custom.scss */
 .price-item {
   font-size: 16px;
   margin: 0;
 }
 
-/* line 340, ../sass/custom.scss */
+/* line 341, ../sass/custom.scss */
 .price-item.finstil {
   margin-top: 15px;
   font-size: 14px;
 }
 
-/* line 345, ../sass/custom.scss */
+/* line 346, ../sass/custom.scss */
 .container.prislista {
   margin-top: 30px;
 }
 
-/* line 349, ../sass/custom.scss */
+/* line 350, ../sass/custom.scss */
 .row.prislista {
   margin-top: 10px;
 }
 
-/* line 353, ../sass/custom.scss */
+/* line 354, ../sass/custom.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 357, ../sass/custom.scss */
+/* line 358, ../sass/custom.scss */
 .fa-quote-left {
   font-size: 20px;
   color: #F7B4BA;
   margin: 20px;
 }
 
-/* line 363, ../sass/custom.scss */
+/* line 364, ../sass/custom.scss */
 #about {
   padding: 80px 0;
 }
 
-/* line 367, ../sass/custom.scss */
+/* line 368, ../sass/custom.scss */
 .quote {
   font-style: italic;
 }
 
-/* line 371, ../sass/custom.scss */
+/* line 372, ../sass/custom.scss */
 .quote-item {
   padding-right: 90px;
   padding-left: 90px;
@@ -414,7 +415,7 @@ IF I WANT WHITE BACKGROUND
     padding: 5px 20px;
 }
 */
-/* line 389, ../sass/custom.scss */
+/* line 390, ../sass/custom.scss */
 .quote-sign {
   font-style: italic;
   color: #F7B4BA;
@@ -425,14 +426,14 @@ IF I WANT WHITE BACKGROUND
 AGENCY CONTACT FORM
 
 */
-/* line 401, ../sass/custom.scss */
+/* line 402, ../sass/custom.scss */
 #contactForm {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 407, ../sass/custom.scss */
+/* line 408, ../sass/custom.scss */
 #defaultBtn {
   background-color: #dae0e5;
   /*border: 1px solid darken($background_gray, 10%);*/
@@ -448,45 +449,45 @@ AGENCY CONTACT FORM
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 417, ../sass/custom.scss */
+/* line 418, ../sass/custom.scss */
 #defaultBtn:hover, #defaultBtn:active, #defaultBtn:focus {
   background-color: #fce2e4;
   color: black;
 }
 
-/* line 425, ../sass/custom.scss */
+/* line 426, ../sass/custom.scss */
 .form-group {
   margin-top: 20px;
   margin-bottom: 25px;
 }
 
-/* line 430, ../sass/custom.scss */
+/* line 431, ../sass/custom.scss */
 input {
   padding: 20px;
 }
 
-/* line 434, ../sass/custom.scss */
+/* line 435, ../sass/custom.scss */
 textarea {
   padding: 20px;
 }
 
-/* line 438, ../sass/custom.scss */
+/* line 439, ../sass/custom.scss */
 input.form-control {
   height: auto;
 }
 
-/* line 442, ../sass/custom.scss */
+/* line 443, ../sass/custom.scss */
 textarea.form-control {
   height: 166px;
 }
 
-/* line 446, ../sass/custom.scss */
+/* line 447, ../sass/custom.scss */
 .form-control:focus {
   border: 2px solid #fce2e4;
   box-shadow: none;
 }
 
-/* line 451, ../sass/custom.scss */
+/* line 452, ../sass/custom.scss */
 #prices {
   background-color: #262626;
   padding: 0;
@@ -494,7 +495,7 @@ textarea.form-control {
 }
 
 /* PRICE LIST */
-/* line 460, ../sass/custom.scss */
+/* line 461, ../sass/custom.scss */
 .fill {
   width: 100%;
   height: 810px;
@@ -505,7 +506,7 @@ textarea.form-control {
   -o-background-size: cover;
 }
 
-/* line 470, ../sass/custom.scss */
+/* line 471, ../sass/custom.scss */
 .opacity {
   opacity: 0.3;
 }
@@ -543,19 +544,19 @@ textarea.form-control {
     margin: 30px auto 30px auto;
 }
 */
-/* line 511, ../sass/custom.scss */
+/* line 512, ../sass/custom.scss */
 #instaLink {
   font-size: 24px;
   text-transform: uppercase;
   font-family: lato;
 }
 
-/* line 517, ../sass/custom.scss */
+/* line 518, ../sass/custom.scss */
 #instafeed {
   margin: 40px 0;
 }
 
-/* line 521, ../sass/custom.scss */
+/* line 522, ../sass/custom.scss */
 .instaimg img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -564,7 +565,7 @@ textarea.form-control {
   overflow: hidden;
 }
 
-/* line 529, ../sass/custom.scss */
+/* line 530, ../sass/custom.scss */
 .instaimg img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
