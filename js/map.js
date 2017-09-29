@@ -131,6 +131,7 @@ function initMap() {
     // to the map type control.
     var map = new google.maps.Map(document.getElementById('map'), {
         center: myLatLng
+        ,  gestureHandling: 'greedy'
         , zoom: 15
         , mapTypeControlOptions: {
             mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain'

@@ -14,6 +14,12 @@
     transform: $transform;
 }
 
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
 $pink: #F7B4BA;
 $light_pink: #ffeaed;
 $red_pink: #C74057;
@@ -197,7 +203,17 @@ a {
 
 .card-text {
     height: 250px;
-    font-size: 15px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+figure.effect-duke img {
+    @include ease-animation(all, 0.35s);
+}
+
+figure.effect-duke:hover img {
+    opacity: 1;
+    @include transform(scale3d(1.08, 1.08, 1));
 }
 
 .btn {
@@ -313,7 +329,8 @@ footer {
 
 .priceList {
     background-color: $light_pink;
-    opacity: 0.9;opacity: 0.9;
+    opacity: 0.9;
+    opacity: 0.9;
     padding: 70px;
     width: 1000px;
     margin: 70px auto 70px auto;
@@ -357,7 +374,7 @@ footer {
 }
 
 .fa-quote-left {
-    font-size: 20px;
+    font-size: 25px;
     color: $pink;
     margin: 20px;
 }
@@ -367,10 +384,19 @@ footer {
 }
 
 .quote {
-    font-style: italic;
+    font-size: 1.2em;
+    font-family: 'Nothing You Could Do', cursive;
+    //font-family: 'Just Another Hand', cursive;
+    //font-family: 'Handlee', cursive;
+    //font-family: 'Caveat Brush', cursive;
+    //font-family: 'Courgette', cursive;
+    //font-family: 'Give You Glory', cursive;
+    //font-family: 'The Girl Next Door', cursive;
+    //font-family: 'La Belle Aurore', cursive;
 }
 
 .quote-item {
+    margin: 30px 0 0 0;
     padding-right: 90px;
     padding-left: 90px;
 }
@@ -389,7 +415,6 @@ IF I WANT WHITE BACKGROUND
 */
 
 .quote-sign {
-    font-style: italic;
     color: $pink;
 }
 
@@ -532,4 +557,48 @@ textarea.form-control {
     opacity: 0.8;
     -moz-opacity: 0.8;
     -webkit-opacity: 0.8;
+}
+
+
+/*
+
+PMG GRID
+
+*/
+
+.grid {
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+
+.grid figure {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 15px 0;
+    width: auto;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+figure.effect-duke img {
+    @include ease-animation(all, 0.35s);
+}
+
+figure.effect-duke:hover img {
+    opacity: 1;
+    @include transform(scale3d(1.08, 1.08, 1));
 }
