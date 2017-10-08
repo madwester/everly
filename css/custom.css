@@ -633,6 +633,10 @@ PMG GRID
 .grid figure img {
   position: relative;
   display: block;
+<<<<<<< HEAD
+=======
+  /*min-height: 100%;*/
+>>>>>>> 563a66e44d02929738a855488b2095ebc89c5018
   max-width: 100%;
   width: 100%;
   opacity: 1;
