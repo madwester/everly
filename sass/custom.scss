@@ -208,6 +208,13 @@ a {
     margin: 10px;
 }
 
+@media only screen and (max-width: 480px) {
+    .card-text {
+        height: auto;
+        margin-bottom: 40px;
+    }
+}
+
 figure.effect-duke img {
     @include ease-animation(all, 0.35s);
 }
@@ -251,12 +258,12 @@ section#contact {
     letter-spacing: 1.3px;
     font-family: lato;
     font-weight: 400;
-    //font-family: 'Quicksand', sans-serif;
-    //font-family: 'Oswald', sans-serif;
-    //font-family: 'Adamina', serif;
-    //font-family: 'Radley', serif;
-    //font-family: 'Nothing You Could Do', cursive;
-    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
+}
+
+@media only screen and (max-width: 480px) {
+    .section-heading {
+        font-size: 1.7em;
+    }
 }
 
 .section-heading.noMargin {
@@ -342,8 +349,7 @@ footer {
 
 .priceList {
     background-color: $light_pink;
-    opacity: 0.9;
-    opacity: 0.9;
+    //opacity: 0.8;
     padding: 70px;
     width: 1000px;
     margin: 70px auto 70px auto;
@@ -380,6 +386,18 @@ footer {
 
 .row.prislista {
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .priceList {
+        width: 320px;
+    }
+    .type {
+        font-size: 18px;
+    }
+    .price-item {
+        font-size: 12px;
+    }
 }
 
 .italic {
