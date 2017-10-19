@@ -391,12 +391,16 @@ footer {
 @media only screen and (max-width: 480px) {
     .priceList {
         width: 320px;
+        padding: 10px;
     }
     .type {
         font-size: 18px;
     }
     .price-item {
         font-size: 12px;
+    }
+    .row.prislista {
+        flex-wrap: nowrap;
     }
 }
 
