@@ -1,4 +1,3 @@
-
 $('#myTab a').click(function (e) {
         e.preventDefault()
         $(this).tab('show')
@@ -24,4 +23,4 @@ var onMapClickHandler = function (event) {
     }
     // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
-$(document).ready(function () {
+//$(document).ready(function () {
