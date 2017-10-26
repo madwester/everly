@@ -24,9 +24,9 @@ $(document).ready(function () {
             enabled: true
         }
     });
-});
-//insta feed ends
-var btnInstafeedLoad = document.getElementById("btn-instafeed-load");
-btnInstafeedLoad.addEventListener("click", function () {
-    userFeed.next()
+    //insta feed ends
+    var btnInstafeedLoad = document.getElementById("btn-instafeed-load");
+    btnInstafeedLoad.addEventListener("click", function () {
+        userFeed.next()
+    });
 });

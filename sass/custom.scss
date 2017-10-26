@@ -70,6 +70,10 @@ ALL OVER THE PAGE
 
 ----------------------*/
 
+span {
+    font-size: 70%;
+}
+
 .fa,
 a {
     color: $brand-text-color;
@@ -310,7 +314,7 @@ CAROUSEL
 }
 
 .carousel-item.zoom-left {
-    background-position: left;
+    background-position: 10%;
 }
 
 .carousel-caption {
@@ -865,13 +869,19 @@ INSTAGRAM FEED
 /* load more button */
 
 #btn-instafeed-load {
-    color: #fff;
-    background: #26a3ff;
-    font-size: 16px;
-    margin: 20px auto;
-    padding: 8px 40px;
-    display: block;
-    border: none;
+    background-color: darken($background_gray, 10%);
+    padding: 1rem 2rem;
+    width: 227px;
+    margin-top: 10px;
+    color: $brand-text-color;
+    border-radius: 10px;
+    @include ease-animation(all,
+    0.2s);
+    &:hover,
+    {
+        background-color: $everly_pink;
+        color: $brand-text-color;
+    }
 }
 
 
