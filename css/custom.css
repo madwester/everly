@@ -23,7 +23,7 @@ section {
 .carousel-item {
   height: 100vh;
   min-height: 300px;
-  background: no-repeat center center scroll;
+  background: no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,16 +31,26 @@ section {
 }
 
 /* line 68, ../sass/custom.scss */
+.carousel-item.zoom-right {
+  background-position: 80%;
+}
+
+/* line 72, ../sass/custom.scss */
+.carousel-item.zoom-left {
+  background-position: left;
+}
+
+/* line 76, ../sass/custom.scss */
 header {
   padding: 55px 0 0 0;
 }
 
-/* line 72, ../sass/custom.scss */
+/* line 80, ../sass/custom.scss */
 .navbar-brand img {
   width: 60%;
 }
 
-/* line 76, ../sass/custom.scss */
+/* line 84, ../sass/custom.scss */
 .nav-link {
   /*text-transform: uppercase;*/
   font-family: 'Montserrat', sans-serif;
@@ -56,40 +66,40 @@ header {
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
 }
 
-/* line 91, ../sass/custom.scss */
+/* line 99, ../sass/custom.scss */
 .navbar-toggler {
   margin-right: 10px;
 }
 
-/* line 95, ../sass/custom.scss */
+/* line 103, ../sass/custom.scss */
 .navbar-brand.js-scroll-trigger {
   width: 200px;
 }
 
-/* line 99, ../sass/custom.scss */
+/* line 107, ../sass/custom.scss */
 .ml-auto {
   margin-top: 10px;
   text-align: right;
 }
 
 @media only screen and (max-width: 991px) {
-  /* line 107, ../sass/custom.scss */
+  /* line 115, ../sass/custom.scss */
   .fixed-top {
     border-bottom: 1px solid #404040;
   }
 
-  /* line 110, ../sass/custom.scss */
+  /* line 118, ../sass/custom.scss */
   .navbar-brand img {
     width: 50%;
   }
 
-  /* line 113, ../sass/custom.scss */
+  /* line 121, ../sass/custom.scss */
   .nav-link {
     margin: 0px;
   }
 }
 /* NAV LINKS EFFECT UNDERLINE */
-/* line 121, ../sass/custom.scss */
+/* line 129, ../sass/custom.scss */
 .cl-effect-3 a::after {
   position: absolute;
   top: 100%;
@@ -107,7 +117,7 @@ header {
   transform: translateY(10px);
 }
 
-/* line 138, ../sass/custom.scss */
+/* line 146, ../sass/custom.scss */
 .cl-effect-3 a:hover::after,
 .cl-effect-3 a:focus::after {
   opacity: 1;
@@ -116,22 +126,22 @@ header {
   transform: translateY(0px);
 }
 
-/* line 146, ../sass/custom.scss */
+/* line 154, ../sass/custom.scss */
 .container-fluid {
   max-width: 1600px;
 }
 
-/* line 150, ../sass/custom.scss */
+/* line 158, ../sass/custom.scss */
 #makeup {
   padding: 55px 0 0 0;
 }
 
-/* line 154, ../sass/custom.scss */
+/* line 162, ../sass/custom.scss */
 .fa,
 a {
   color: #595959;
 }
-/* line 157, ../sass/custom.scss */
+/* line 165, ../sass/custom.scss */
 .fa:hover, .fa:active, .fa:focus,
 a:hover,
 a:active,
@@ -139,18 +149,18 @@ a:focus {
   color: #F0D4D1;
 }
 
-/* line 164, ../sass/custom.scss */
+/* line 172, ../sass/custom.scss */
 .social-media {
   list-style: none;
   padding: 0;
   margin: 0 0 50px 0;
 }
-/* line 168, ../sass/custom.scss */
+/* line 176, ../sass/custom.scss */
 .social-media li {
   display: inline-block;
   margin: 0px 3px;
 }
-/* line 171, ../sass/custom.scss */
+/* line 179, ../sass/custom.scss */
 .social-media li a {
   display: inline-block;
   width: 54px;
@@ -159,99 +169,99 @@ a:focus {
   background-color: #F5F3EE;
   border-radius: 27px;
 }
-/* line 178, ../sass/custom.scss */
+/* line 186, ../sass/custom.scss */
 .social-media li a i {
   font-size: 23px;
   padding: 16px 0px;
 }
-/* line 181, ../sass/custom.scss */
+/* line 189, ../sass/custom.scss */
 .social-media li a i:hover, .social-media li a i:active, .social-media li a i:focus {
   color: #F5F3EE;
 }
-/* line 187, ../sass/custom.scss */
+/* line 195, ../sass/custom.scss */
 .social-media li a:hover, .social-media li a:active, .social-media li a:focus {
   background-color: #595959;
 }
 
-/* line 196, ../sass/custom.scss */
+/* line 204, ../sass/custom.scss */
 .xs-text {
   font-size: 11px;
 }
 
-/* line 200, ../sass/custom.scss */
+/* line 208, ../sass/custom.scss */
 .capsLock {
   text-transform: uppercase;
 }
 
-/* line 204, ../sass/custom.scss */
+/* line 212, ../sass/custom.scss */
 .lg-text {
   font-size: 18px;
 }
 
-/* line 208, ../sass/custom.scss */
+/* line 216, ../sass/custom.scss */
 .marginTop {
   margin-top: 10px;
 }
 
-/* line 212, ../sass/custom.scss */
+/* line 220, ../sass/custom.scss */
 .zeroPadding {
   padding: 0;
 }
 
-/* line 216, ../sass/custom.scss */
+/* line 224, ../sass/custom.scss */
 .zeroMargin {
   margin: 0;
 }
 
-/* line 220, ../sass/custom.scss */
+/* line 228, ../sass/custom.scss */
 .capsLock {
   text-transform: uppercase;
 }
 
-/* line 224, ../sass/custom.scss */
+/* line 232, ../sass/custom.scss */
 .carousel-caption {
   width: 300px;
   top: 200px;
   color: #595959;
 }
-/* line 228, ../sass/custom.scss */
+/* line 236, ../sass/custom.scss */
 .carousel-caption h3 {
   font-size: 3em;
   font-family: 'Radley', serif;
 }
-/* line 232, ../sass/custom.scss */
+/* line 240, ../sass/custom.scss */
 .carousel-caption p {
   margin: 25px 0 30px 0;
 }
 
-/* line 237, ../sass/custom.scss */
+/* line 245, ../sass/custom.scss */
 .carousel-caption.caption-right {
   left: auto;
   color: white;
 }
 
-/* line 242, ../sass/custom.scss */
+/* line 250, ../sass/custom.scss */
 .btn.white {
   background-color: white;
 }
-/* line 244, ../sass/custom.scss */
+/* line 252, ../sass/custom.scss */
 .btn.white:hover, .btn.white:active, .btn.white:focus {
   background-color: #dae0e5;
 }
 
-/* line 251, ../sass/custom.scss */
+/* line 259, ../sass/custom.scss */
 .portfolio-item {
   text-align: center;
 }
 
-/* line 255, ../sass/custom.scss */
+/* line 263, ../sass/custom.scss */
 .card-title {
   margin-top: 5px;
   height: 50px;
   text-transform: capitalize;
 }
 
-/* line 261, ../sass/custom.scss */
+/* line 269, ../sass/custom.scss */
 .card-text {
   height: 250px;
   font-size: 14px;
@@ -259,13 +269,13 @@ a:focus {
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 268, ../sass/custom.scss */
+  /* line 276, ../sass/custom.scss */
   .card-text {
     height: auto;
     margin-bottom: 40px;
   }
 }
-/* line 274, ../sass/custom.scss */
+/* line 282, ../sass/custom.scss */
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -274,7 +284,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-/* line 278, ../sass/custom.scss */
+/* line 286, ../sass/custom.scss */
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
@@ -284,17 +294,17 @@ figure.effect-duke:hover img {
   transform: scale3d(1.08, 1.08, 1);
 }
 
-/* line 283, ../sass/custom.scss */
+/* line 291, ../sass/custom.scss */
 .btn {
   cursor: pointer;
 }
 
-/* line 287, ../sass/custom.scss */
+/* line 295, ../sass/custom.scss */
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-/* line 293, ../sass/custom.scss */
+/* line 301, ../sass/custom.scss */
 #services {
   background-color: #fff !important;
 }
@@ -304,13 +314,13 @@ figure.effect-duke:hover img {
 CONTACT FORM
 
 */
-/* line 304, ../sass/custom.scss */
+/* line 312, ../sass/custom.scss */
 section#contact {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 309, ../sass/custom.scss */
+/* line 317, ../sass/custom.scss */
 .section-heading {
   color: #595959;
   margin: 15px 0 45px 0;
@@ -322,67 +332,67 @@ section#contact {
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 320, ../sass/custom.scss */
+  /* line 328, ../sass/custom.scss */
   .section-heading {
     font-size: 1.7em;
   }
 }
-/* line 325, ../sass/custom.scss */
+/* line 333, ../sass/custom.scss */
 .section-heading.noMargin {
   margin: 15px;
 }
 
-/* line 329, ../sass/custom.scss */
+/* line 337, ../sass/custom.scss */
 .section-subheading {
   margin: 20px;
 }
 
-/* line 333, ../sass/custom.scss */
+/* line 341, ../sass/custom.scss */
 #contact {
   padding: 70px;
 }
 
-/* line 337, ../sass/custom.scss */
+/* line 345, ../sass/custom.scss */
 .section-subheading.text-muted {
   font-size: 90%;
 }
 
 /*from new york theme */
 /* Map */
-/* line 347, ../sass/custom.scss */
+/* line 355, ../sass/custom.scss */
 #map {
   width: 100%;
   height: 450px;
 }
 
-/* line 352, ../sass/custom.scss */
+/* line 360, ../sass/custom.scss */
 .map {
   height: 500px;
 }
 
 @media (max-width: 768px) {
-  /* line 357, ../sass/custom.scss */
+  /* line 365, ../sass/custom.scss */
   .map {
     height: 75%;
   }
 }
-/* line 362, ../sass/custom.scss */
+/* line 370, ../sass/custom.scss */
 .map iframe {
   pointer-events: none;
 }
 
 /* Footer */
-/* line 369, ../sass/custom.scss */
+/* line 377, ../sass/custom.scss */
 footer {
   padding: 100px 0;
 }
 
-/* line 373, ../sass/custom.scss */
+/* line 381, ../sass/custom.scss */
 .text-muted-footer {
   font-size: 90%;
 }
 
-/* line 377, ../sass/custom.scss */
+/* line 385, ../sass/custom.scss */
 #to-top {
   font-size: 1em;
   position: fixed;
@@ -392,14 +402,14 @@ footer {
   padding: 15px 20px;
 }
 
-/* line 386, ../sass/custom.scss */
+/* line 394, ../sass/custom.scss */
 .section-heading.footer {
   font-size: 1.7em;
   margin: 15px;
   text-transform: capitalize;
 }
 
-/* line 392, ../sass/custom.scss */
+/* line 400, ../sass/custom.scss */
 .btn-outline-secondary {
   background-color: #dae0e5;
   color: #595959;
@@ -412,13 +422,13 @@ footer {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 399, ../sass/custom.scss */
+/* line 407, ../sass/custom.scss */
 .btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:focus {
   background-color: #F0D4D1;
   color: #595959;
 }
 
-/* line 408, ../sass/custom.scss */
+/* line 416, ../sass/custom.scss */
 #prices {
   background-image: url("../images/pattern_pink.gif");
   background-size: 100%;
@@ -427,12 +437,12 @@ footer {
   color: #595959;
 }
 
-/* line 416, ../sass/custom.scss */
+/* line 424, ../sass/custom.scss */
 .priceList {
   background-color: white;
   padding: 70px;
   width: 1000px;
-  margin: 70px auto 70px auto;
+  margin: 100px auto 100px auto;
   text-align: center;
   font-family: lato;
   z-index: 3;
@@ -441,14 +451,14 @@ footer {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
-/* line 428, ../sass/custom.scss */
+/* line 436, ../sass/custom.scss */
 .hr-title {
   width: 70px;
   height: 1px;
   background-color: #595959;
 }
 
-/* line 434, ../sass/custom.scss */
+/* line 442, ../sass/custom.scss */
 .type {
   font-family: 'lato', sans-serif;
   margin-top: 30px;
@@ -456,86 +466,86 @@ footer {
   font-weight: 600;
 }
 
-/* line 441, ../sass/custom.scss */
+/* line 449, ../sass/custom.scss */
 .price-item {
   font-size: 16px;
   margin: 0;
 }
 
-/* line 446, ../sass/custom.scss */
+/* line 454, ../sass/custom.scss */
 .price-item.finstil {
   margin-top: 15px;
   font-size: 14px;
 }
 
-/* line 451, ../sass/custom.scss */
+/* line 459, ../sass/custom.scss */
 .container.prislista {
   margin-top: 30px;
 }
 
-/* line 455, ../sass/custom.scss */
+/* line 463, ../sass/custom.scss */
 .row.prislista {
   margin-top: 10px;
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 460, ../sass/custom.scss */
+  /* line 468, ../sass/custom.scss */
   .priceList {
     width: 320px;
     padding: 10px;
   }
 
-  /* line 464, ../sass/custom.scss */
+  /* line 472, ../sass/custom.scss */
   .type {
     font-size: 18px;
   }
 
-  /* line 467, ../sass/custom.scss */
+  /* line 475, ../sass/custom.scss */
   .price-item {
     font-size: 12px;
   }
 
-  /* line 470, ../sass/custom.scss */
+  /* line 478, ../sass/custom.scss */
   .row.prislista {
     flex-wrap: nowrap;
   }
 }
-/* line 475, ../sass/custom.scss */
+/* line 483, ../sass/custom.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 479, ../sass/custom.scss */
+/* line 487, ../sass/custom.scss */
 .fa-quote-left {
   font-size: 25px;
   color: #F0D4D1;
   margin: 20px;
 }
 
-/* line 485, ../sass/custom.scss */
+/* line 493, ../sass/custom.scss */
 #about {
   padding: 80px 0;
 }
 
-/* line 489, ../sass/custom.scss */
+/* line 497, ../sass/custom.scss */
 .quote-item {
   margin: 30px 0 0 0;
   padding-right: 90px;
   padding-left: 90px;
   text-align: center;
 }
-/* line 495, ../sass/custom.scss */
+/* line 503, ../sass/custom.scss */
 .quote-item img {
   margin: 20px;
 }
-/* line 498, ../sass/custom.scss */
+/* line 506, ../sass/custom.scss */
 .quote-item h3 {
   text-align: left;
   font-size: 95%;
   margin: 15px 0 20px 0;
   height: 130px;
 }
-/* line 504, ../sass/custom.scss */
+/* line 512, ../sass/custom.scss */
 .quote-item h4 {
   text-align: right;
   font-size: 95%;
@@ -547,14 +557,14 @@ footer {
 AGENCY CONTACT FORM
 
 */
-/* line 518, ../sass/custom.scss */
+/* line 526, ../sass/custom.scss */
 #contactForm {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 524, ../sass/custom.scss */
+/* line 532, ../sass/custom.scss */
 #defaultBtn {
   background-color: #dae0e5;
   /*border: 1px solid darken($background_gray, 10%);*/
@@ -570,46 +580,46 @@ AGENCY CONTACT FORM
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 535, ../sass/custom.scss */
+/* line 543, ../sass/custom.scss */
 #defaultBtn:hover, #defaultBtn:active, #defaultBtn:focus {
   background-color: #F0D4D1;
   color: #595959;
 }
 
-/* line 544, ../sass/custom.scss */
+/* line 552, ../sass/custom.scss */
 .form-group {
   margin-top: 20px;
   margin-bottom: 25px;
 }
 
-/* line 549, ../sass/custom.scss */
+/* line 557, ../sass/custom.scss */
 input {
   padding: 20px;
 }
 
-/* line 553, ../sass/custom.scss */
+/* line 561, ../sass/custom.scss */
 textarea {
   padding: 20px;
 }
 
-/* line 557, ../sass/custom.scss */
+/* line 565, ../sass/custom.scss */
 input.form-control {
   height: auto;
 }
 
-/* line 561, ../sass/custom.scss */
+/* line 569, ../sass/custom.scss */
 textarea.form-control {
   height: 166px;
 }
 
-/* line 565, ../sass/custom.scss */
+/* line 573, ../sass/custom.scss */
 .form-control:focus {
   border: 2px solid #F0D4D1;
   box-shadow: none;
 }
 
 /* PRICE LIST */
-/* line 574, ../sass/custom.scss */
+/* line 582, ../sass/custom.scss */
 .fill {
   width: 100%;
   height: 810px;
@@ -620,7 +630,7 @@ textarea.form-control {
   -o-background-size: cover;
 }
 
-/* line 584, ../sass/custom.scss */
+/* line 592, ../sass/custom.scss */
 .opacity {
   opacity: 0.3;
 }
@@ -658,19 +668,19 @@ textarea.form-control {
     margin: 30px auto 30px auto;
 }
 */
-/* line 625, ../sass/custom.scss */
+/* line 633, ../sass/custom.scss */
 #instaLink {
   font-size: 24px;
   text-transform: uppercase;
   font-family: lato;
 }
 
-/* line 631, ../sass/custom.scss */
+/* line 639, ../sass/custom.scss */
 #instafeed {
   margin: 20px 0;
 }
 
-/* line 635, ../sass/custom.scss */
+/* line 643, ../sass/custom.scss */
 .instaimg img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -679,7 +689,7 @@ textarea.form-control {
   overflow: hidden;
 }
 
-/* line 643, ../sass/custom.scss */
+/* line 651, ../sass/custom.scss */
 .instaimg img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
@@ -691,7 +701,7 @@ textarea.form-control {
 PMG GRID
 
 */
-/* line 656, ../sass/custom.scss */
+/* line 664, ../sass/custom.scss */
 .grid {
   position: relative;
   clear: both;
@@ -701,7 +711,7 @@ PMG GRID
   text-align: center;
 }
 
-/* line 665, ../sass/custom.scss */
+/* line 673, ../sass/custom.scss */
 .grid figure {
   position: relative;
   overflow: hidden;
@@ -712,7 +722,7 @@ PMG GRID
   cursor: pointer;
 }
 
-/* line 675, ../sass/custom.scss */
+/* line 683, ../sass/custom.scss */
 .grid figure img {
   position: relative;
   display: block;
@@ -721,7 +731,7 @@ PMG GRID
   opacity: 1;
 }
 
-/* line 684, ../sass/custom.scss */
+/* line 692, ../sass/custom.scss */
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -730,7 +740,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-/* line 689, ../sass/custom.scss */
+/* line 697, ../sass/custom.scss */
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
