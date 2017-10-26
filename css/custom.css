@@ -325,36 +325,30 @@ CAROUSEL
   color: white;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1300px) {
-  /* line 335, ../sass/custom.scss */
-  .carousel-caption {
-    top: 100px;
-  }
-}
 @media only screen and (max-width: 767px) {
-  /* line 341, ../sass/custom.scss */
+  /* line 335, ../sass/custom.scss */
   .carousel-item {
     background-color: 0, 0, 0, 0.2;
   }
 
-  /* line 345, ../sass/custom.scss */
+  /* line 339, ../sass/custom.scss */
   .carousel-caption {
     width: 200px;
     top: 100px;
     right: auto;
     left: 30px;
   }
-  /* line 350, ../sass/custom.scss */
+  /* line 344, ../sass/custom.scss */
   .carousel-caption h3 {
     font-size: 1.8em;
   }
-  /* line 353, ../sass/custom.scss */
+  /* line 347, ../sass/custom.scss */
   .carousel-caption p {
     margin: 25px 0 30px 0;
     font-size: 1em;
   }
 
-  /* line 358, ../sass/custom.scss */
+  /* line 352, ../sass/custom.scss */
   .carousel-caption.caption-right {
     top: 100px;
     left: 40px;
@@ -362,16 +356,22 @@ CAROUSEL
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 367, ../sass/custom.scss */
+  /* line 361, ../sass/custom.scss */
   .carousel-caption {
     width: 300px;
     top: 270px;
     right: auto;
     left: 60px;
   }
-  /* line 372, ../sass/custom.scss */
+  /* line 366, ../sass/custom.scss */
   .carousel-caption p {
     font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  /* line 374, ../sass/custom.scss */
+  .carousel-caption {
+    top: 100px !important;
   }
 }
 /*----------------------------
@@ -379,18 +379,18 @@ CAROUSEL
 FOOTER
 
 ----------------------------*/
-/* line 385, ../sass/custom.scss */
+/* line 386, ../sass/custom.scss */
 .social-media {
   list-style: none;
   padding: 0;
   margin: 0 0 50px 0;
 }
-/* line 389, ../sass/custom.scss */
+/* line 390, ../sass/custom.scss */
 .social-media li {
   display: inline-block;
   margin: 0px 3px;
 }
-/* line 392, ../sass/custom.scss */
+/* line 393, ../sass/custom.scss */
 .social-media li a {
   display: inline-block;
   width: 54px;
@@ -399,41 +399,41 @@ FOOTER
   background-color: #F5F3EE;
   border-radius: 27px;
 }
-/* line 399, ../sass/custom.scss */
+/* line 400, ../sass/custom.scss */
 .social-media li a i {
   font-size: 23px;
   padding: 16px 0px;
 }
-/* line 402, ../sass/custom.scss */
+/* line 403, ../sass/custom.scss */
 .social-media li a i:hover, .social-media li a i:active, .social-media li a i:focus {
   color: #F5F3EE;
 }
-/* line 408, ../sass/custom.scss */
+/* line 409, ../sass/custom.scss */
 .social-media li a:hover, .social-media li a:active, .social-media li a:focus {
   background-color: #595959;
 }
-/* line 412, ../sass/custom.scss */
+/* line 413, ../sass/custom.scss */
 .social-media li a:hover i, .social-media li a:active i, .social-media li a:focus i {
   color: #F5F3EE;
 }
 
-/* line 420, ../sass/custom.scss */
+/* line 421, ../sass/custom.scss */
 footer {
   padding: 100px 0 30px 0;
 }
 
-/* line 424, ../sass/custom.scss */
+/* line 425, ../sass/custom.scss */
 .text-muted-footer {
   font-size: 90%;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 429, ../sass/custom.scss */
+  /* line 430, ../sass/custom.scss */
   .text-muted-footer {
     font-size: 80%;
   }
 }
-/* line 434, ../sass/custom.scss */
+/* line 435, ../sass/custom.scss */
 #to-top {
   font-size: 1em;
   position: fixed;
@@ -443,7 +443,7 @@ footer {
   padding: 15px 20px;
 }
 
-/* line 443, ../sass/custom.scss */
+/* line 444, ../sass/custom.scss */
 .section-heading.footer {
   font-size: 1.7em;
   margin: 15px;
@@ -455,19 +455,19 @@ footer {
 SERVICES
 
 ----------------------------*/
-/* line 456, ../sass/custom.scss */
+/* line 457, ../sass/custom.scss */
 .portfolio-item {
   text-align: center;
 }
 
-/* line 460, ../sass/custom.scss */
+/* line 461, ../sass/custom.scss */
 .card-title {
   margin-top: 5px;
   height: 50px;
   text-transform: capitalize;
 }
 
-/* line 466, ../sass/custom.scss */
+/* line 467, ../sass/custom.scss */
 .card-text {
   height: 250px;
   font-size: 14px;
@@ -475,58 +475,58 @@ SERVICES
 }
 
 @media only screen and (max-width: 575px) {
-  /* line 474, ../sass/custom.scss */
+  /* line 475, ../sass/custom.scss */
   .portfolio-item {
     margin: auto 30px;
   }
 
-  /* line 477, ../sass/custom.scss */
+  /* line 478, ../sass/custom.scss */
   .card-text {
     height: auto;
     margin-bottom: 40px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 485, ../sass/custom.scss */
+  /* line 486, ../sass/custom.scss */
   .smaller-text {
     font-size: 12px !important;
   }
 
-  /* line 488, ../sass/custom.scss */
+  /* line 489, ../sass/custom.scss */
   .card-title {
     height: 80px;
   }
 
-  /* line 491, ../sass/custom.scss */
+  /* line 492, ../sass/custom.scss */
   .card-text {
     height: 300px;
     font-size: 14px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 499, ../sass/custom.scss */
+  /* line 500, ../sass/custom.scss */
   .smaller-text {
     font-size: 12px !important;
   }
 
-  /* line 502, ../sass/custom.scss */
+  /* line 503, ../sass/custom.scss */
   .card-title {
     height: 50px;
   }
 
-  /* line 505, ../sass/custom.scss */
+  /* line 506, ../sass/custom.scss */
   .card-text {
     height: 200px;
     font-size: 14px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 513, ../sass/custom.scss */
+  /* line 514, ../sass/custom.scss */
   .card-text {
     height: 300px;
   }
 }
-/* line 518, ../sass/custom.scss */
+/* line 519, ../sass/custom.scss */
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -535,7 +535,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-/* line 522, ../sass/custom.scss */
+/* line 523, ../sass/custom.scss */
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
@@ -545,12 +545,12 @@ figure.effect-duke:hover img {
   transform: scale3d(1.08, 1.08, 1);
 }
 
-/* line 527, ../sass/custom.scss */
+/* line 528, ../sass/custom.scss */
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-/* line 533, ../sass/custom.scss */
+/* line 534, ../sass/custom.scss */
 #services {
   background-color: #fff !important;
 }
@@ -560,24 +560,24 @@ figure.effect-duke:hover img {
 MAP
 
 ----------------------------*/
-/* line 544, ../sass/custom.scss */
+/* line 545, ../sass/custom.scss */
 #map {
   width: 100%;
   height: 450px;
 }
 
-/* line 549, ../sass/custom.scss */
+/* line 550, ../sass/custom.scss */
 .map {
   height: 500px;
 }
 
 @media (max-width: 768px) {
-  /* line 554, ../sass/custom.scss */
+  /* line 555, ../sass/custom.scss */
   .map {
     height: 75%;
   }
 }
-/* line 559, ../sass/custom.scss */
+/* line 560, ../sass/custom.scss */
 .map iframe {
   pointer-events: none;
 }
@@ -587,7 +587,7 @@ MAP
 PRICES
 
 ----------------------------*/
-/* line 570, ../sass/custom.scss */
+/* line 571, ../sass/custom.scss */
 #prices {
   background-image: url("../images/pattern_pink.gif");
   background-size: 100%;
@@ -596,7 +596,7 @@ PRICES
   color: #595959;
 }
 
-/* line 578, ../sass/custom.scss */
+/* line 579, ../sass/custom.scss */
 .priceList {
   background-color: white;
   padding: 70px;
@@ -610,25 +610,25 @@ PRICES
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
-/* line 590, ../sass/custom.scss */
+/* line 591, ../sass/custom.scss */
 .column {
   width: 100%;
   text-align: left;
 }
 
-/* line 595, ../sass/custom.scss */
+/* line 596, ../sass/custom.scss */
 .column-left {
   width: 75%;
   text-align: left;
 }
 
-/* line 600, ../sass/custom.scss */
+/* line 601, ../sass/custom.scss */
 .column-right {
   width: 25%;
   text-align: right;
 }
 
-/* line 605, ../sass/custom.scss */
+/* line 606, ../sass/custom.scss */
 .type {
   font-family: 'lato', sans-serif;
   margin-top: 30px;
@@ -636,52 +636,52 @@ PRICES
   font-weight: 600;
 }
 
-/* line 612, ../sass/custom.scss */
+/* line 613, ../sass/custom.scss */
 .price-item {
   font-size: 16px;
   margin: 0;
 }
 
-/* line 617, ../sass/custom.scss */
+/* line 618, ../sass/custom.scss */
 .price-item.finstil {
   margin-top: 15px;
   font-size: 14px;
 }
 
-/* line 622, ../sass/custom.scss */
+/* line 623, ../sass/custom.scss */
 .container.prislista {
   margin-top: 30px;
 }
 
-/* line 626, ../sass/custom.scss */
+/* line 627, ../sass/custom.scss */
 .row.prislista {
   margin: 10px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 631, ../sass/custom.scss */
+  /* line 632, ../sass/custom.scss */
   .priceList {
     width: 320px;
     padding: 50px 30px;
     margin: 50px auto !important;
   }
 
-  /* line 636, ../sass/custom.scss */
+  /* line 637, ../sass/custom.scss */
   .type {
     font-size: 18px;
   }
 
-  /* line 639, ../sass/custom.scss */
+  /* line 640, ../sass/custom.scss */
   .price-item {
     font-size: 13px;
   }
 
-  /* line 642, ../sass/custom.scss */
+  /* line 643, ../sass/custom.scss */
   .finstil {
     font-size: 12px !important;
   }
 
-  /* line 645, ../sass/custom.scss */
+  /* line 646, ../sass/custom.scss */
   .row.prislista {
     flex-wrap: nowrap;
   }
@@ -691,84 +691,84 @@ PRICES
 ABOUT
 
 --------------------------- */
-/* line 657, ../sass/custom.scss */
+/* line 658, ../sass/custom.scss */
 .p-5 {
   padding: 3rem !important;
 }
 
-/* line 661, ../sass/custom.scss */
+/* line 662, ../sass/custom.scss */
 .om-oss {
   margin: 0 70px;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 666, ../sass/custom.scss */
+  /* line 667, ../sass/custom.scss */
   .p-5 {
     text-align: center;
     padding: 1rem !important;
   }
-  /* line 669, ../sass/custom.scss */
+  /* line 670, ../sass/custom.scss */
   .p-5 img {
     max-width: 50%;
   }
 
-  /* line 673, ../sass/custom.scss */
+  /* line 674, ../sass/custom.scss */
   .om-oss {
     margin: 40px 40px;
   }
 }
-/* line 678, ../sass/custom.scss */
+/* line 679, ../sass/custom.scss */
 .fa-quote-left {
   font-size: 25px;
   color: #F0D4D1;
   margin: 20px;
 }
 
-/* line 684, ../sass/custom.scss */
+/* line 685, ../sass/custom.scss */
 #about {
   padding: 80px 0;
 }
 
-/* line 688, ../sass/custom.scss */
+/* line 689, ../sass/custom.scss */
 .quote-item {
   margin: 30px 0 0 0;
   padding-right: 90px;
   padding-left: 90px;
   text-align: center;
 }
-/* line 693, ../sass/custom.scss */
+/* line 694, ../sass/custom.scss */
 .quote-item img {
   margin: 20px;
 }
-/* line 696, ../sass/custom.scss */
+/* line 697, ../sass/custom.scss */
 .quote-item h3 {
   text-align: left;
   font-size: 95%;
   margin: 15px 0 20px 0;
 }
-/* line 701, ../sass/custom.scss */
+/* line 702, ../sass/custom.scss */
 .quote-item h4 {
   text-align: right;
   font-size: 95%;
   color: #e3b0ab;
 }
 
-/* line 708, ../sass/custom.scss */
+/* line 709, ../sass/custom.scss */
 .wrap-quote {
   height: 190px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 714, ../sass/custom.scss */
+  /* line 715, ../sass/custom.scss */
   .quote-item {
     margin: 20px 0 0 0;
   }
-  /* line 716, ../sass/custom.scss */
+  /* line 717, ../sass/custom.scss */
   .quote-item img {
     margin: 10px;
   }
 
-  /* line 720, ../sass/custom.scss */
+  /* line 721, ../sass/custom.scss */
   .wrap-quote {
     width: 150px;
     height: auto;
@@ -777,21 +777,21 @@ ABOUT
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 730, ../sass/custom.scss */
+  /* line 731, ../sass/custom.scss */
   .quote-item {
     padding-right: 30px;
     padding-left: 30px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 738, ../sass/custom.scss */
+  /* line 739, ../sass/custom.scss */
   .quote-item {
     padding-right: 50px;
     padding-left: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 746, ../sass/custom.scss */
+  /* line 747, ../sass/custom.scss */
   .quote-item h3 {
     height: auto;
   }
@@ -801,21 +801,21 @@ ABOUT
 CONTACT FORM (AGENCY)
 
 --------------------------*/
-/* line 759, ../sass/custom.scss */
+/* line 760, ../sass/custom.scss */
 #contact {
   padding: 70px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 765, ../sass/custom.scss */
+/* line 766, ../sass/custom.scss */
 #contactForm {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 771, ../sass/custom.scss */
+/* line 772, ../sass/custom.scss */
 #defaultBtn {
   background-color: #dae0e5;
   /*border: 1px solid darken($background_gray, 10%);*/
@@ -830,51 +830,51 @@ CONTACT FORM (AGENCY)
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 781, ../sass/custom.scss */
+/* line 782, ../sass/custom.scss */
 #defaultBtn:hover, #defaultBtn:active, #defaultBtn:focus {
   background-color: #F0D4D1;
   color: #595959;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 791, ../sass/custom.scss */
+  /* line 792, ../sass/custom.scss */
   #contact {
     padding: 70px 30px;
   }
 
-  /* line 794, ../sass/custom.scss */
+  /* line 795, ../sass/custom.scss */
   #defaultBtn {
     width: 200px;
     font-size: 14px;
   }
 }
-/* line 800, ../sass/custom.scss */
+/* line 801, ../sass/custom.scss */
 .form-group {
   margin-top: 20px;
   margin-bottom: 25px;
 }
 
-/* line 805, ../sass/custom.scss */
+/* line 806, ../sass/custom.scss */
 input {
   padding: 20px;
 }
 
-/* line 809, ../sass/custom.scss */
+/* line 810, ../sass/custom.scss */
 textarea {
   padding: 20px;
 }
 
-/* line 813, ../sass/custom.scss */
+/* line 814, ../sass/custom.scss */
 input.form-control {
   height: auto;
 }
 
-/* line 817, ../sass/custom.scss */
+/* line 818, ../sass/custom.scss */
 textarea.form-control {
   height: 166px;
 }
 
-/* line 821, ../sass/custom.scss */
+/* line 822, ../sass/custom.scss */
 .form-control:focus {
   border: 2px solid #F0D4D1;
   box-shadow: none;
@@ -885,19 +885,19 @@ textarea.form-control {
 INSTAGRAM FEED 
 
 --------------------------*/
-/* line 834, ../sass/custom.scss */
+/* line 835, ../sass/custom.scss */
 #instaLink {
   font-size: 24px;
   text-transform: uppercase;
   font-family: lato;
 }
 
-/* line 840, ../sass/custom.scss */
+/* line 841, ../sass/custom.scss */
 #instafeed {
   margin: 20px 0;
 }
 
-/* line 844, ../sass/custom.scss */
+/* line 845, ../sass/custom.scss */
 .instaimg img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -907,12 +907,12 @@ INSTAGRAM FEED
 }
 
 @media only screen and (max-width: 575px) {
-  /* line 853, ../sass/custom.scss */
+  /* line 854, ../sass/custom.scss */
   .instaimg {
     text-align: center;
   }
 }
-/* line 858, ../sass/custom.scss */
+/* line 859, ../sass/custom.scss */
 .instaimg img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
@@ -924,7 +924,7 @@ INSTAGRAM FEED
 PMG GRID
 
 -----------------------*/
-/* line 871, ../sass/custom.scss */
+/* line 872, ../sass/custom.scss */
 .grid {
   position: relative;
   clear: both;
@@ -934,7 +934,7 @@ PMG GRID
   text-align: center;
 }
 
-/* line 880, ../sass/custom.scss */
+/* line 881, ../sass/custom.scss */
 .grid figure {
   position: relative;
   overflow: hidden;
@@ -945,7 +945,7 @@ PMG GRID
   cursor: pointer;
 }
 
-/* line 890, ../sass/custom.scss */
+/* line 891, ../sass/custom.scss */
 .grid figure img {
   position: relative;
   display: block;
@@ -954,7 +954,7 @@ PMG GRID
   opacity: 1;
 }
 
-/* line 899, ../sass/custom.scss */
+/* line 900, ../sass/custom.scss */
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -963,7 +963,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-/* line 904, ../sass/custom.scss */
+/* line 905, ../sass/custom.scss */
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
