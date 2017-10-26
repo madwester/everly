@@ -708,6 +708,12 @@ ABOUT
 
 //XS
 @media only screen and (max-width: 767px) {
+    .quote-item {
+        margin: 20px 0 0 0;
+        img {
+            margin: 10px;
+        }
+    }
     .wrap-quote {
         width: 150px;
         height: auto;
@@ -767,7 +773,6 @@ CONTACT FORM (AGENCY)
     margin-top: 10px;
     color: $brand-text-color;
     border-radius: 10px;
-    border-radius: 10px;
     @include ease-animation(all,
     0.2s);
     &:hover,
@@ -776,6 +781,16 @@ CONTACT FORM (AGENCY)
         //background-color: lighten($pink, 10%);
         background-color: $everly_pink;
         color: $brand-text-color;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #contact {
+        padding: 30px;
+    }
+    #defaultBtn {
+        width: 200px;
+        font-size: 14px;
     }
 }
 
