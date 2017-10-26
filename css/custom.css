@@ -839,7 +839,7 @@ CONTACT FORM (AGENCY)
 @media only screen and (max-width: 767px) {
   /* line 791, ../sass/custom.scss */
   #contact {
-    padding: 30px;
+    padding: 70px 30px;
   }
 
   /* line 794, ../sass/custom.scss */
