@@ -28,6 +28,31 @@
 //font-family: 'Give You Glory', cursive;
 //font-family: 'The Girl Next Door', cursive;
 //font-family: 'La Belle Aurore', cursive;
+//
+
+/* 
+
+//XS
+@media only screen and (max-width: 767px) {
+}
+
+//SM
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+//MD
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+//LG
+@media only screen and (min-width: 1200px) and (max-width: 1579px) {}
+
+//XL
+@media only screen and (min-width: 1580px) {}
+
+
+
+*/
+
 $pink: #F7B4BA;
 $light_pink: #ffeaed;
 $everly_pink: #F0D4D1;
@@ -38,8 +63,103 @@ $background_gray: #f8f9fa;
 $dark_adobe_gray: #262626;
 $brand-text-color: #595959;
 $off-white: #F5F3EE;
+
+/*----------------------
+
+ALL OVER THE PAGE
+
+----------------------*/
+
+.fa,
+a {
+    color: $brand-text-color;
+    &:hover,
+    &:active,
+    &:focus {
+        color: $everly_pink;
+    }
+}
+
 p {
     margin: 0;
+}
+
+.xs-text {
+    font-size: 11px;
+}
+
+.capsLock {
+    text-transform: uppercase;
+}
+
+.lg-text {
+    font-size: 18px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.marginTop {
+    margin-top: 10px;
+}
+
+.zeroPadding {
+    padding: 0;
+}
+
+.zeroMargin {
+    margin: 0;
+}
+
+.btn-outline-secondary {
+    background-color: darken($background_gray, 10%);
+    color: $brand-text-color;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 30px;
+    @include ease-animation(all, 0.2s);
+    &:hover,
+    &:active,
+    &:focus {
+        //background-color: lighten($pink, 10%);
+        background-color: $everly_pink;
+        color: $brand-text-color;
+    }
+}
+
+.hr-title {
+    width: 70px;
+    height: 1px;
+    background-color: $brand-text-color;
+}
+
+.section-heading {
+    color: $brand-text-color;
+    margin: 15px 0 45px 0;
+    font-size: 2.1em;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-family: lato;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 480px) {
+    .section-heading {
+        font-size: 1.7em;
+    }
+}
+
+.section-heading.noMargin {
+    margin: 15px;
+}
+
+.section-subheading {
+    margin: 20px;
+}
+
+.section-subheading.text-muted {
+    font-size: 90%;
 }
 
 html {
@@ -55,22 +175,31 @@ section {
     padding: 110px 0;
 }
 
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.container-fluid {
+    max-width: 1600px;
 }
+
+#makeup {
+    padding: 55px 0 0 0;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+/*----------------------------
+
+HEADER 
+
+----------------------------*/
 
 header {
     padding: 55px 0 0 0;
 }
 
 .navbar-brand img {
-    width: 60%;
+    width: 55%;
 }
 
 .nav-link {
@@ -143,23 +272,106 @@ header {
     transform: translateY(0px);
 }
 
-.container-fluid {
-    max-width: 1600px;
-}
 
-#makeup {
-    padding: 55px 0 0 0;
-}
+/*----------------------------
 
-.fa,
-a {
-    color: lighten($dark_adobe_gray, 20%);
+CAROUSEL 
+
+----------------------------*/
+
+.btn.white {
+    background-color: white;
     &:hover,
     &:active,
     &:focus {
-        color: $everly_pink;
+        background-color: darken($background_gray, 10%);
     }
 }
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item.zoom-70 {
+    background-position: 70%;
+}
+
+.carousel-item.zoom-80 {
+    background-position: 80%;
+}
+
+.carousel-item.zoom-left {
+    background-position: left;
+}
+
+.carousel-caption {
+    width: 300px;
+    top: 180px;
+    color: $brand-text-color;
+    h3 {
+        font-size: 3em;
+        font-family: 'Radley', serif;
+    }
+    p {
+        margin: 25px 0 30px 0;
+    }
+}
+
+.carousel-caption.caption-right {
+    left: auto;
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-item {
+        background-color: (0, 0, 0, 0.2);
+        //opacity: 0.6;
+    }
+    .carousel-caption {
+        width: 200px;
+        top: 120px;
+        right: auto;
+        left: 30px;
+        h3 {
+            font-size: 1.8em;
+        }
+        p {
+            margin: 25px 0 30px 0;
+            font-size: 1em;
+        }
+    }
+    .carousel-caption.caption-right {
+        top: 120px;
+        left: 40px;
+        right: auto;
+    }
+}
+
+//SM
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        width: 300px;
+        top: 270px;
+        right: auto;
+        left: 60px;
+        p {
+            font-size: 1.2em;
+        }
+    }
+}
+
+
+/*----------------------------
+
+FOOTER
+
+----------------------------*/
 
 .social-media {
     list-style: none;
@@ -188,65 +400,49 @@ a {
             &:active,
             &:focus {
                 background-color: $brand-text-color;
+                i {
+                    color: $off-white;
+                }
             }
         }
     }
 }
 
-.xs-text {
-    font-size: 11px;
+footer {
+    padding: 100px 0;
 }
 
-.capsLock {
-    text-transform: uppercase;
+.text-muted-footer {
+    font-size: 90%;
 }
 
-.lg-text {
-    font-size: 18px;
-}
-
-.marginTop {
-    margin-top: 10px;
-}
-
-.zeroPadding {
-    padding: 0;
-}
-
-.zeroMargin {
-    margin: 0;
-}
-
-.capsLock {
-    text-transform: uppercase;
-}
-
-.carousel-caption {
-    width: 300px;
-    top: 200px;
-    color: $brand-text-color;
-    h3 {
-        font-size: 3em;
-        font-family: 'Radley', serif;
-    }
-    p {
-        margin: 25px 0 30px 0;
+@media only screen and (max-width: 992px) {
+    .text-muted-footer {
+        font-size: 80%;
     }
 }
 
-.carousel-caption.caption-right {
-    left: auto;
-    color: white;
+#to-top {
+    font-size: 1em;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    padding: 15px 20px;
 }
 
-.btn.white {
-    background-color: white;
-    &:hover,
-    &:active,
-    &:focus {
-        background-color: darken($background_gray, 10%);
-    }
+.section-heading.footer {
+    font-size: 1.7em;
+    margin: 15px;
+    text-transform: capitalize;
 }
+
+
+/*----------------------------
+
+SERVICES
+
+----------------------------*/
 
 .portfolio-item {
     text-align: center;
@@ -264,10 +460,49 @@ a {
     margin: 10px;
 }
 
-@media only screen and (max-width: 480px) {
+//XS
+@media only screen and (max-width: 575px) {
+    .portfolio-item {
+        margin: auto 30px;
+    }
     .card-text {
         height: auto;
         margin-bottom: 40px;
+    }
+}
+
+//CUSTOMIZED SCREEN
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .smaller-text {
+        font-size: 12px!important;
+    }
+    .card-title {
+        height: 80px;
+    }
+    .card-text {
+        height: 300px;
+        font-size: 14px;
+    }
+}
+
+//SM
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .smaller-text {
+        font-size: 12px!important;
+    }
+    .card-title {
+        height: 50px;
+    }
+    .card-text {
+        height: 200px;
+        font-size: 14px;
+    }
+}
+
+//MD
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .card-text {
+        height: 300px;
     }
 }
 
@@ -278,10 +513,6 @@ figure.effect-duke img {
 figure.effect-duke:hover img {
     opacity: 1;
     @include transform(scale3d(1.08, 1.08, 1));
-}
-
-.btn {
-    cursor: pointer;
 }
 
 .portfolio-item {
@@ -295,54 +526,11 @@ figure.effect-duke:hover img {
 }
 
 
-/*
+/*---------------------------- 
 
-CONTACT FORM
+MAP
 
-*/
-
-section#contact {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.section-heading {
-    color: $brand-text-color;
-    margin: 15px 0 45px 0;
-    font-size: 2.1em;
-    text-transform: uppercase;
-    letter-spacing: 1.3px;
-    font-family: lato;
-    font-weight: 400;
-}
-
-@media only screen and (max-width: 480px) {
-    .section-heading {
-        font-size: 1.7em;
-    }
-}
-
-.section-heading.noMargin {
-    margin: 15px;
-}
-
-.section-subheading {
-    margin: 20px;
-}
-
-#contact {
-    padding: 70px;
-}
-
-.section-subheading.text-muted {
-    font-size: 90%;
-}
-
-
-/*from new york theme */
-
-
-/* Map */
+----------------------------*/
 
 #map {
     width: 100%;
@@ -364,51 +552,16 @@ section#contact {
 }
 
 
-/* Footer */
+/*----------------------------
 
-footer {
-    padding: 100px 0;
-}
+PRICES
 
-.text-muted-footer {
-    font-size: 90%;
-}
-
-#to-top {
-    font-size: 1em;
-    position: fixed;
-    right: 5px;
-    bottom: 5px;
-    display: none;
-    padding: 15px 20px;
-}
-
-.section-heading.footer {
-    font-size: 1.7em;
-    margin: 15px;
-    text-transform: capitalize;
-}
-
-.btn-outline-secondary {
-    background-color: darken($background_gray, 10%);
-    color: $brand-text-color;
-    border-radius: 5px;
-    border: 0;
-    padding: 10px 30px;
-    @include ease-animation(all, 0.2s);
-    &:hover,
-    &:active,
-    &:focus {
-        //background-color: lighten($pink, 10%);
-        background-color: $everly_pink;
-        color: $brand-text-color;
-    }
-}
+----------------------------*/
 
 #prices {
     background-image: url("../images/pattern_pink.gif");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     padding: 0;
     color: $brand-text-color;
 }
@@ -418,17 +571,26 @@ footer {
     //opacity: 0.8;
     padding: 70px;
     width: 1000px;
-    margin: 70px auto 70px auto;
+    margin: 100px auto 100px auto!important;
     text-align: center;
     font-family: lato;
     z-index: 3;
     @include box-shadow(0px 0px 20px 0px rgba(0, 0, 0, 0.4));
 }
 
-.hr-title {
-    width: 70px;
-    height: 1px;
-    background-color: $brand-text-color;
+.column {
+    width: 100%;
+    text-align: left;
+}
+
+.column-left {
+    width: 75%;
+    text-align: left;
+}
+
+.column-right {
+    width: 25%;
+    text-align: right;
 }
 
 .type {
@@ -453,27 +615,51 @@ footer {
 }
 
 .row.prislista {
-    margin-top: 10px;
+    margin: 10px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
     .priceList {
         width: 320px;
-        padding: 10px;
+        padding: 50px 10px;
     }
     .type {
         font-size: 18px;
     }
     .price-item {
-        font-size: 12px;
+        font-size: 13px;
     }
     .row.prislista {
         flex-wrap: nowrap;
     }
 }
 
-.italic {
-    font-style: italic;
+
+/*---------------------------
+
+ABOUT
+
+--------------------------- */
+
+.p-5 {
+    padding: 3rem !important;
+}
+
+.om-oss {
+    margin: 0 70px;
+}
+
+@media only screen and (max-width: 992px) {
+    .p-5 {
+        text-align: center;
+        padding: 1rem!important;
+        img {
+            max-width: 50%;
+        }
+    }
+    .om-oss {
+        margin: 40px 70px;
+    }
 }
 
 .fa-quote-left {
@@ -487,7 +673,6 @@ footer {
 }
 
 .quote-item {
-    //height: 270px;
     margin: 30px 0 0 0;
     padding-right: 90px;
     padding-left: 90px;
@@ -499,7 +684,6 @@ footer {
         text-align: left;
         font-size: 95%;
         margin: 15px 0 20px 0;
-        height: 130px;
     }
     h4 {
         text-align: right;
@@ -508,12 +692,57 @@ footer {
     }
 }
 
+.wrap-quote {
+    height: 190px;
+}
 
-/* 
 
-AGENCY CONTACT FORM
+//XS
+@media only screen and (max-width: 767px) {
+    .wrap-quote {
+        width: 150px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 
-*/
+//SM
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .quote-item {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+//MD
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .quote-item {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .quote-item {
+        h3 {
+            height: auto;
+        }
+    }
+}
+
+
+/*--------------------------
+
+CONTACT FORM (AGENCY)
+
+--------------------------*/
+
+#contact {
+    padding: 70px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
 
 #contactForm {
     max-width: 960px;
@@ -569,24 +798,11 @@ textarea.form-control {
 }
 
 
-/* PRICE LIST */
+/*--------------------------
 
-.fill {
-    width: 100%;
-    height: 810px;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+INSTAGRAM FEED 
 
-.opacity {
-    opacity: 0.3;
-}
-
-
-/* INSTAGRAM FEED STARTS HERE */
+--------------------------*/
 
 
 /*.container.insta {
@@ -647,11 +863,11 @@ textarea.form-control {
 }
 
 
-/*
+/*-----------------------
 
 PMG GRID
 
-*/
+-----------------------*/
 
 .grid {
     position: relative;
