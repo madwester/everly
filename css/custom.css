@@ -118,7 +118,7 @@ p {
 @media only screen and (max-width: 480px) {
   /* line 148, ../sass/custom.scss */
   .section-heading {
-    font-size: 1.7em;
+    font-size: 1.6em;
   }
 }
 /* line 153, ../sass/custom.scss */
@@ -834,7 +834,7 @@ CONTACT FORM (AGENCY)
 @media only screen and (max-width: 767px) {
   /* line 788, ../sass/custom.scss */
   #contact {
-    padding: 20px;
+    padding: 30px;
   }
 
   /* line 791, ../sass/custom.scss */
@@ -880,51 +880,19 @@ textarea.form-control {
 INSTAGRAM FEED 
 
 --------------------------*/
-/*.container.insta {
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto 0 auto;
-}
-
-@media only screen and (min-width: 771px) and (max-width: 1000px) {
-    #instafeed {
-        width: 720px;
-    }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 770px) {
-    #instafeeed {
-        width: 450px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    #instafeeed {
-        width: 240px;
-    }
-}
-
-
-#instafeed {
-    display: flex;
-    flex-wrap: wrap;
-    width: 960px;
-    margin: 30px auto 30px auto;
-}
-*/
-/* line 865, ../sass/custom.scss */
+/* line 831, ../sass/custom.scss */
 #instaLink {
   font-size: 24px;
   text-transform: uppercase;
   font-family: lato;
 }
 
-/* line 871, ../sass/custom.scss */
+/* line 837, ../sass/custom.scss */
 #instafeed {
   margin: 20px 0;
 }
 
-/* line 875, ../sass/custom.scss */
+/* line 841, ../sass/custom.scss */
 .instaimg img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -934,12 +902,12 @@ INSTAGRAM FEED
 }
 
 @media only screen and (max-width: 575px) {
-  /* line 884, ../sass/custom.scss */
+  /* line 850, ../sass/custom.scss */
   .instaimg {
     text-align: center;
   }
 }
-/* line 889, ../sass/custom.scss */
+/* line 855, ../sass/custom.scss */
 .instaimg img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
@@ -951,7 +919,7 @@ INSTAGRAM FEED
 PMG GRID
 
 -----------------------*/
-/* line 902, ../sass/custom.scss */
+/* line 868, ../sass/custom.scss */
 .grid {
   position: relative;
   clear: both;
@@ -961,7 +929,7 @@ PMG GRID
   text-align: center;
 }
 
-/* line 911, ../sass/custom.scss */
+/* line 877, ../sass/custom.scss */
 .grid figure {
   position: relative;
   overflow: hidden;
@@ -972,7 +940,7 @@ PMG GRID
   cursor: pointer;
 }
 
-/* line 921, ../sass/custom.scss */
+/* line 887, ../sass/custom.scss */
 .grid figure img {
   position: relative;
   display: block;
@@ -981,7 +949,7 @@ PMG GRID
   opacity: 1;
 }
 
-/* line 930, ../sass/custom.scss */
+/* line 896, ../sass/custom.scss */
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -990,7 +958,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-/* line 935, ../sass/custom.scss */
+/* line 901, ../sass/custom.scss */
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
