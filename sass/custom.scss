@@ -328,6 +328,12 @@ CAROUSEL
     color: white;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .carousel-caption {
+        top: 100px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .carousel-item {
         background-color: (0, 0, 0, 0.2);
@@ -335,7 +341,7 @@ CAROUSEL
     }
     .carousel-caption {
         width: 200px;
-        top: 120px;
+        top: 100px;
         right: auto;
         left: 30px;
         h3 {
@@ -347,7 +353,7 @@ CAROUSEL
         }
     }
     .carousel-caption.caption-right {
-        top: 120px;
+        top: 100px;
         left: 40px;
         right: auto;
     }
@@ -409,7 +415,7 @@ FOOTER
 }
 
 footer {
-    padding: 100px 0;
+    padding: 100px 0 30px 0;
 }
 
 .text-muted-footer {
@@ -621,13 +627,17 @@ PRICES
 @media only screen and (max-width: 767px) {
     .priceList {
         width: 320px;
-        padding: 50px 10px;
+        padding: 50px 30px;
+        margin: 50px auto!important;
     }
     .type {
         font-size: 18px;
     }
     .price-item {
         font-size: 13px;
+    }
+    .finstil {
+        font-size: 12px!important;
     }
     .row.prislista {
         flex-wrap: nowrap;
@@ -658,7 +668,7 @@ ABOUT
         }
     }
     .om-oss {
-        margin: 40px 70px;
+        margin: 40px 40px;
     }
 }
 
@@ -695,7 +705,6 @@ ABOUT
 .wrap-quote {
     height: 190px;
 }
-
 
 //XS
 @media only screen and (max-width: 767px) {
@@ -854,6 +863,12 @@ INSTAGRAM FEED
     height: 250px;
     width: 250px;
     overflow: hidden;
+}
+
+@media only screen and (max-width: 575px) {
+    .instaimg {
+        text-align: center;
+    }
 }
 
 .instaimg img:hover {
