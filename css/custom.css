@@ -320,30 +320,36 @@ CAROUSEL
   color: white;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 332, ../sass/custom.scss */
+  .carousel-caption {
+    top: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 338, ../sass/custom.scss */
   .carousel-item {
     background-color: 0, 0, 0, 0.2;
   }
 
-  /* line 336, ../sass/custom.scss */
+  /* line 342, ../sass/custom.scss */
   .carousel-caption {
     width: 200px;
     top: 120px;
     right: auto;
     left: 30px;
   }
-  /* line 341, ../sass/custom.scss */
+  /* line 347, ../sass/custom.scss */
   .carousel-caption h3 {
     font-size: 1.8em;
   }
-  /* line 344, ../sass/custom.scss */
+  /* line 350, ../sass/custom.scss */
   .carousel-caption p {
     margin: 25px 0 30px 0;
     font-size: 1em;
   }
 
-  /* line 349, ../sass/custom.scss */
+  /* line 355, ../sass/custom.scss */
   .carousel-caption.caption-right {
     top: 120px;
     left: 40px;
@@ -351,14 +357,14 @@ CAROUSEL
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 358, ../sass/custom.scss */
+  /* line 364, ../sass/custom.scss */
   .carousel-caption {
     width: 300px;
     top: 270px;
     right: auto;
     left: 60px;
   }
-  /* line 363, ../sass/custom.scss */
+  /* line 369, ../sass/custom.scss */
   .carousel-caption p {
     font-size: 1.2em;
   }
@@ -368,18 +374,18 @@ CAROUSEL
 FOOTER
 
 ----------------------------*/
-/* line 376, ../sass/custom.scss */
+/* line 382, ../sass/custom.scss */
 .social-media {
   list-style: none;
   padding: 0;
   margin: 0 0 50px 0;
 }
-/* line 380, ../sass/custom.scss */
+/* line 386, ../sass/custom.scss */
 .social-media li {
   display: inline-block;
   margin: 0px 3px;
 }
-/* line 383, ../sass/custom.scss */
+/* line 389, ../sass/custom.scss */
 .social-media li a {
   display: inline-block;
   width: 54px;
@@ -388,41 +394,41 @@ FOOTER
   background-color: #F5F3EE;
   border-radius: 27px;
 }
-/* line 390, ../sass/custom.scss */
+/* line 396, ../sass/custom.scss */
 .social-media li a i {
   font-size: 23px;
   padding: 16px 0px;
 }
-/* line 393, ../sass/custom.scss */
+/* line 399, ../sass/custom.scss */
 .social-media li a i:hover, .social-media li a i:active, .social-media li a i:focus {
   color: #F5F3EE;
 }
-/* line 399, ../sass/custom.scss */
+/* line 405, ../sass/custom.scss */
 .social-media li a:hover, .social-media li a:active, .social-media li a:focus {
   background-color: #595959;
 }
-/* line 403, ../sass/custom.scss */
+/* line 409, ../sass/custom.scss */
 .social-media li a:hover i, .social-media li a:active i, .social-media li a:focus i {
   color: #F5F3EE;
 }
 
-/* line 411, ../sass/custom.scss */
+/* line 417, ../sass/custom.scss */
 footer {
   padding: 100px 0;
 }
 
-/* line 415, ../sass/custom.scss */
+/* line 421, ../sass/custom.scss */
 .text-muted-footer {
   font-size: 90%;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 420, ../sass/custom.scss */
+  /* line 426, ../sass/custom.scss */
   .text-muted-footer {
     font-size: 80%;
   }
 }
-/* line 425, ../sass/custom.scss */
+/* line 431, ../sass/custom.scss */
 #to-top {
   font-size: 1em;
   position: fixed;
@@ -432,7 +438,7 @@ footer {
   padding: 15px 20px;
 }
 
-/* line 434, ../sass/custom.scss */
+/* line 440, ../sass/custom.scss */
 .section-heading.footer {
   font-size: 1.7em;
   margin: 15px;
@@ -444,19 +450,19 @@ footer {
 SERVICES
 
 ----------------------------*/
-/* line 447, ../sass/custom.scss */
+/* line 453, ../sass/custom.scss */
 .portfolio-item {
   text-align: center;
 }
 
-/* line 451, ../sass/custom.scss */
+/* line 457, ../sass/custom.scss */
 .card-title {
   margin-top: 5px;
   height: 50px;
   text-transform: capitalize;
 }
 
-/* line 457, ../sass/custom.scss */
+/* line 463, ../sass/custom.scss */
 .card-text {
   height: 250px;
   font-size: 14px;
@@ -464,58 +470,58 @@ SERVICES
 }
 
 @media only screen and (max-width: 575px) {
-  /* line 465, ../sass/custom.scss */
+  /* line 471, ../sass/custom.scss */
   .portfolio-item {
     margin: auto 30px;
   }
 
-  /* line 468, ../sass/custom.scss */
+  /* line 474, ../sass/custom.scss */
   .card-text {
     height: auto;
     margin-bottom: 40px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 476, ../sass/custom.scss */
+  /* line 482, ../sass/custom.scss */
   .smaller-text {
     font-size: 12px !important;
   }
 
-  /* line 479, ../sass/custom.scss */
+  /* line 485, ../sass/custom.scss */
   .card-title {
     height: 80px;
   }
 
-  /* line 482, ../sass/custom.scss */
+  /* line 488, ../sass/custom.scss */
   .card-text {
     height: 300px;
     font-size: 14px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 490, ../sass/custom.scss */
+  /* line 496, ../sass/custom.scss */
   .smaller-text {
     font-size: 12px !important;
   }
 
-  /* line 493, ../sass/custom.scss */
+  /* line 499, ../sass/custom.scss */
   .card-title {
     height: 50px;
   }
 
-  /* line 496, ../sass/custom.scss */
+  /* line 502, ../sass/custom.scss */
   .card-text {
     height: 200px;
     font-size: 14px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 504, ../sass/custom.scss */
+  /* line 510, ../sass/custom.scss */
   .card-text {
     height: 300px;
   }
 }
-/* line 509, ../sass/custom.scss */
+/* line 515, ../sass/custom.scss */
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -524,7 +530,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-/* line 513, ../sass/custom.scss */
+/* line 519, ../sass/custom.scss */
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
@@ -534,12 +540,12 @@ figure.effect-duke:hover img {
   transform: scale3d(1.08, 1.08, 1);
 }
 
-/* line 518, ../sass/custom.scss */
+/* line 524, ../sass/custom.scss */
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-/* line 524, ../sass/custom.scss */
+/* line 530, ../sass/custom.scss */
 #services {
   background-color: #fff !important;
 }
@@ -549,24 +555,24 @@ figure.effect-duke:hover img {
 MAP
 
 ----------------------------*/
-/* line 535, ../sass/custom.scss */
+/* line 541, ../sass/custom.scss */
 #map {
   width: 100%;
   height: 450px;
 }
 
-/* line 540, ../sass/custom.scss */
+/* line 546, ../sass/custom.scss */
 .map {
   height: 500px;
 }
 
 @media (max-width: 768px) {
-  /* line 545, ../sass/custom.scss */
+  /* line 551, ../sass/custom.scss */
   .map {
     height: 75%;
   }
 }
-/* line 550, ../sass/custom.scss */
+/* line 556, ../sass/custom.scss */
 .map iframe {
   pointer-events: none;
 }
@@ -576,7 +582,7 @@ MAP
 PRICES
 
 ----------------------------*/
-/* line 561, ../sass/custom.scss */
+/* line 567, ../sass/custom.scss */
 #prices {
   background-image: url("../images/pattern_pink.gif");
   background-size: 100%;
@@ -585,7 +591,7 @@ PRICES
   color: #595959;
 }
 
-/* line 569, ../sass/custom.scss */
+/* line 575, ../sass/custom.scss */
 .priceList {
   background-color: white;
   padding: 70px;
@@ -599,25 +605,25 @@ PRICES
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
-/* line 581, ../sass/custom.scss */
+/* line 587, ../sass/custom.scss */
 .column {
   width: 100%;
   text-align: left;
 }
 
-/* line 586, ../sass/custom.scss */
+/* line 592, ../sass/custom.scss */
 .column-left {
   width: 75%;
   text-align: left;
 }
 
-/* line 591, ../sass/custom.scss */
+/* line 597, ../sass/custom.scss */
 .column-right {
   width: 25%;
   text-align: right;
 }
 
-/* line 596, ../sass/custom.scss */
+/* line 602, ../sass/custom.scss */
 .type {
   font-family: 'lato', sans-serif;
   margin-top: 30px;
@@ -625,46 +631,46 @@ PRICES
   font-weight: 600;
 }
 
-/* line 603, ../sass/custom.scss */
+/* line 609, ../sass/custom.scss */
 .price-item {
   font-size: 16px;
   margin: 0;
 }
 
-/* line 608, ../sass/custom.scss */
+/* line 614, ../sass/custom.scss */
 .price-item.finstil {
   margin-top: 15px;
   font-size: 14px;
 }
 
-/* line 613, ../sass/custom.scss */
+/* line 619, ../sass/custom.scss */
 .container.prislista {
   margin-top: 30px;
 }
 
-/* line 617, ../sass/custom.scss */
+/* line 623, ../sass/custom.scss */
 .row.prislista {
   margin: 10px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 622, ../sass/custom.scss */
+  /* line 628, ../sass/custom.scss */
   .priceList {
     width: 320px;
     padding: 50px 10px;
   }
 
-  /* line 626, ../sass/custom.scss */
+  /* line 632, ../sass/custom.scss */
   .type {
     font-size: 18px;
   }
 
-  /* line 629, ../sass/custom.scss */
+  /* line 635, ../sass/custom.scss */
   .price-item {
     font-size: 13px;
   }
 
-  /* line 632, ../sass/custom.scss */
+  /* line 638, ../sass/custom.scss */
   .row.prislista {
     flex-wrap: nowrap;
   }
@@ -674,75 +680,75 @@ PRICES
 ABOUT
 
 --------------------------- */
-/* line 644, ../sass/custom.scss */
+/* line 650, ../sass/custom.scss */
 .p-5 {
   padding: 3rem !important;
 }
 
-/* line 648, ../sass/custom.scss */
+/* line 654, ../sass/custom.scss */
 .om-oss {
   margin: 0 70px;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 653, ../sass/custom.scss */
+  /* line 659, ../sass/custom.scss */
   .p-5 {
     text-align: center;
     padding: 1rem !important;
   }
-  /* line 656, ../sass/custom.scss */
+  /* line 662, ../sass/custom.scss */
   .p-5 img {
     max-width: 50%;
   }
 
-  /* line 660, ../sass/custom.scss */
+  /* line 666, ../sass/custom.scss */
   .om-oss {
     margin: 40px 70px;
   }
 }
-/* line 665, ../sass/custom.scss */
+/* line 671, ../sass/custom.scss */
 .fa-quote-left {
   font-size: 25px;
   color: #F0D4D1;
   margin: 20px;
 }
 
-/* line 671, ../sass/custom.scss */
+/* line 677, ../sass/custom.scss */
 #about {
   padding: 80px 0;
 }
 
-/* line 675, ../sass/custom.scss */
+/* line 681, ../sass/custom.scss */
 .quote-item {
   margin: 30px 0 0 0;
   padding-right: 90px;
   padding-left: 90px;
   text-align: center;
 }
-/* line 680, ../sass/custom.scss */
+/* line 686, ../sass/custom.scss */
 .quote-item img {
   margin: 20px;
 }
-/* line 683, ../sass/custom.scss */
+/* line 689, ../sass/custom.scss */
 .quote-item h3 {
   text-align: left;
   font-size: 95%;
   margin: 15px 0 20px 0;
 }
-/* line 688, ../sass/custom.scss */
+/* line 694, ../sass/custom.scss */
 .quote-item h4 {
   text-align: right;
   font-size: 95%;
   color: #e3b0ab;
 }
 
-/* line 695, ../sass/custom.scss */
+/* line 701, ../sass/custom.scss */
 .wrap-quote {
   height: 190px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 702, ../sass/custom.scss */
+  /* line 708, ../sass/custom.scss */
   .wrap-quote {
     width: 150px;
     height: auto;
@@ -751,21 +757,21 @@ ABOUT
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 712, ../sass/custom.scss */
+  /* line 718, ../sass/custom.scss */
   .quote-item {
     padding-right: 30px;
     padding-left: 30px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 720, ../sass/custom.scss */
+  /* line 726, ../sass/custom.scss */
   .quote-item {
     padding-right: 50px;
     padding-left: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 728, ../sass/custom.scss */
+  /* line 734, ../sass/custom.scss */
   .quote-item h3 {
     height: auto;
   }
@@ -775,21 +781,21 @@ ABOUT
 CONTACT FORM (AGENCY)
 
 --------------------------*/
-/* line 741, ../sass/custom.scss */
+/* line 747, ../sass/custom.scss */
 #contact {
   padding: 70px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 747, ../sass/custom.scss */
+/* line 753, ../sass/custom.scss */
 #contactForm {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 753, ../sass/custom.scss */
+/* line 759, ../sass/custom.scss */
 #defaultBtn {
   background-color: #dae0e5;
   /*border: 1px solid darken($background_gray, 10%);*/
@@ -805,39 +811,39 @@ CONTACT FORM (AGENCY)
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 764, ../sass/custom.scss */
+/* line 770, ../sass/custom.scss */
 #defaultBtn:hover, #defaultBtn:active, #defaultBtn:focus {
   background-color: #F0D4D1;
   color: #595959;
 }
 
-/* line 773, ../sass/custom.scss */
+/* line 779, ../sass/custom.scss */
 .form-group {
   margin-top: 20px;
   margin-bottom: 25px;
 }
 
-/* line 778, ../sass/custom.scss */
+/* line 784, ../sass/custom.scss */
 input {
   padding: 20px;
 }
 
-/* line 782, ../sass/custom.scss */
+/* line 788, ../sass/custom.scss */
 textarea {
   padding: 20px;
 }
 
-/* line 786, ../sass/custom.scss */
+/* line 792, ../sass/custom.scss */
 input.form-control {
   height: auto;
 }
 
-/* line 790, ../sass/custom.scss */
+/* line 796, ../sass/custom.scss */
 textarea.form-control {
   height: 166px;
 }
 
-/* line 794, ../sass/custom.scss */
+/* line 800, ../sass/custom.scss */
 .form-control:focus {
   border: 2px solid #F0D4D1;
   box-shadow: none;
@@ -880,19 +886,19 @@ INSTAGRAM FEED
     margin: 30px auto 30px auto;
 }
 */
-/* line 841, ../sass/custom.scss */
+/* line 847, ../sass/custom.scss */
 #instaLink {
   font-size: 24px;
   text-transform: uppercase;
   font-family: lato;
 }
 
-/* line 847, ../sass/custom.scss */
+/* line 853, ../sass/custom.scss */
 #instafeed {
   margin: 20px 0;
 }
 
-/* line 851, ../sass/custom.scss */
+/* line 857, ../sass/custom.scss */
 .instaimg img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -901,7 +907,7 @@ INSTAGRAM FEED
   overflow: hidden;
 }
 
-/* line 859, ../sass/custom.scss */
+/* line 865, ../sass/custom.scss */
 .instaimg img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
@@ -913,7 +919,7 @@ INSTAGRAM FEED
 PMG GRID
 
 -----------------------*/
-/* line 872, ../sass/custom.scss */
+/* line 878, ../sass/custom.scss */
 .grid {
   position: relative;
   clear: both;
@@ -923,7 +929,7 @@ PMG GRID
   text-align: center;
 }
 
-/* line 881, ../sass/custom.scss */
+/* line 887, ../sass/custom.scss */
 .grid figure {
   position: relative;
   overflow: hidden;
@@ -934,7 +940,7 @@ PMG GRID
   cursor: pointer;
 }
 
-/* line 891, ../sass/custom.scss */
+/* line 897, ../sass/custom.scss */
 .grid figure img {
   position: relative;
   display: block;
@@ -943,7 +949,7 @@ PMG GRID
   opacity: 1;
 }
 
-/* line 900, ../sass/custom.scss */
+/* line 906, ../sass/custom.scss */
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -952,7 +958,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-/* line 905, ../sass/custom.scss */
+/* line 911, ../sass/custom.scss */
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
