@@ -148,6 +148,9 @@ p {
     .section-heading {
         font-size: 1.7em;
     }
+    .smaller-mobile {
+        font-size: 1.4em;
+    }
 }
 
 .section-heading.noMargin {
@@ -328,12 +331,6 @@ CAROUSEL
     color: white;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .carousel-caption {
-        top: 100px;
-    }
-}
-
 @media only screen and (max-width: 767px) {
     .carousel-item {
         background-color: (0, 0, 0, 0.2);
@@ -369,6 +366,13 @@ CAROUSEL
         p {
             font-size: 1.2em;
         }
+    }
+}
+
+//CUSTOMIZED TO FIT MACBOOK PRO
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+    .carousel-caption {
+        top: 100px!important;
     }
 }
 
@@ -461,7 +465,7 @@ SERVICES
 }
 
 .card-text {
-    height: 250px;
+    height: 380px;
     font-size: 14px;
     margin: 10px;
 }
@@ -486,29 +490,32 @@ SERVICES
         height: 80px;
     }
     .card-text {
-        height: 300px;
+        height: 380px;
         font-size: 14px;
     }
 }
 
 //SM
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .smaller-text {
-        font-size: 12px!important;
-    }
     .card-title {
         height: 50px;
     }
     .card-text {
-        height: 200px;
+        height: 310px;
         font-size: 14px;
+    }
+    .smaller-text {
+        font-size: 12px!important;
     }
 }
 
 //MD
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .card-text {
-        height: 300px;
+        height: 340px;
+    }
+    .smaller-text {
+        font-size: 12px!important;
     }
 }
 
@@ -672,12 +679,6 @@ ABOUT
     }
 }
 
-.fa-quote-left {
-    font-size: 25px;
-    color: $everly_pink;
-    margin: 20px;
-}
-
 #about {
     padding: 80px 0;
 }
@@ -691,6 +692,7 @@ ABOUT
         margin: 20px;
     }
     h3 {
+        font-style: italic;
         text-align: left;
         font-size: 95%;
         margin: 15px 0 20px 0;
@@ -786,7 +788,7 @@ CONTACT FORM (AGENCY)
 
 @media only screen and (max-width: 767px) {
     #contact {
-        padding: 30px;
+        padding: 70px 30px;
     }
     #defaultBtn {
         width: 200px;
@@ -828,40 +830,6 @@ INSTAGRAM FEED
 
 --------------------------*/
 
-
-/*.container.insta {
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto 0 auto;
-}
-
-@media only screen and (min-width: 771px) and (max-width: 1000px) {
-    #instafeed {
-        width: 720px;
-    }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 770px) {
-    #instafeeed {
-        width: 450px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    #instafeeed {
-        width: 240px;
-    }
-}
-
-
-#instafeed {
-    display: flex;
-    flex-wrap: wrap;
-    width: 960px;
-    margin: 30px auto 30px auto;
-}
-*/
-
 #instaLink {
     font-size: 24px;
     text-transform: uppercase;
@@ -890,6 +858,20 @@ INSTAGRAM FEED
     opacity: 0.8;
     -moz-opacity: 0.8;
     -webkit-opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/* load more button */
+
+#btn-instafeed-load {
+    color: #fff;
+    background: #26a3ff;
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 8px 40px;
+    display: block;
+    border: none;
 }
 
 

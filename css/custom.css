@@ -469,7 +469,7 @@ SERVICES
 
 /* line 467, ../sass/custom.scss */
 .card-text {
-  height: 250px;
+  height: 380px;
   font-size: 14px;
   margin: 10px;
 }
@@ -499,34 +499,39 @@ SERVICES
 
   /* line 492, ../sass/custom.scss */
   .card-text {
-    height: 300px;
+    height: 380px;
     font-size: 14px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 500, ../sass/custom.scss */
-  .smaller-text {
-    font-size: 12px !important;
-  }
-
-  /* line 503, ../sass/custom.scss */
   .card-title {
     height: 50px;
   }
 
-  /* line 506, ../sass/custom.scss */
+  /* line 503, ../sass/custom.scss */
   .card-text {
-    height: 200px;
+    height: 310px;
     font-size: 14px;
+  }
+
+  /* line 507, ../sass/custom.scss */
+  .smaller-text {
+    font-size: 12px !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 514, ../sass/custom.scss */
   .card-text {
-    height: 300px;
+    height: 340px;
+  }
+
+  /* line 517, ../sass/custom.scss */
+  .smaller-text {
+    font-size: 12px !important;
   }
 }
-/* line 519, ../sass/custom.scss */
+/* line 522, ../sass/custom.scss */
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -535,7 +540,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-/* line 523, ../sass/custom.scss */
+/* line 526, ../sass/custom.scss */
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
@@ -545,12 +550,12 @@ figure.effect-duke:hover img {
   transform: scale3d(1.08, 1.08, 1);
 }
 
-/* line 528, ../sass/custom.scss */
+/* line 531, ../sass/custom.scss */
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-/* line 534, ../sass/custom.scss */
+/* line 537, ../sass/custom.scss */
 #services {
   background-color: #fff !important;
 }
@@ -560,24 +565,24 @@ figure.effect-duke:hover img {
 MAP
 
 ----------------------------*/
-/* line 545, ../sass/custom.scss */
+/* line 548, ../sass/custom.scss */
 #map {
   width: 100%;
   height: 450px;
 }
 
-/* line 550, ../sass/custom.scss */
+/* line 553, ../sass/custom.scss */
 .map {
   height: 500px;
 }
 
 @media (max-width: 768px) {
-  /* line 555, ../sass/custom.scss */
+  /* line 558, ../sass/custom.scss */
   .map {
     height: 75%;
   }
 }
-/* line 560, ../sass/custom.scss */
+/* line 563, ../sass/custom.scss */
 .map iframe {
   pointer-events: none;
 }
@@ -587,7 +592,7 @@ MAP
 PRICES
 
 ----------------------------*/
-/* line 571, ../sass/custom.scss */
+/* line 574, ../sass/custom.scss */
 #prices {
   background-image: url("../images/pattern_pink.gif");
   background-size: 100%;
@@ -596,7 +601,7 @@ PRICES
   color: #595959;
 }
 
-/* line 579, ../sass/custom.scss */
+/* line 582, ../sass/custom.scss */
 .priceList {
   background-color: white;
   padding: 70px;
@@ -610,25 +615,25 @@ PRICES
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
-/* line 591, ../sass/custom.scss */
+/* line 594, ../sass/custom.scss */
 .column {
   width: 100%;
   text-align: left;
 }
 
-/* line 596, ../sass/custom.scss */
+/* line 599, ../sass/custom.scss */
 .column-left {
   width: 75%;
   text-align: left;
 }
 
-/* line 601, ../sass/custom.scss */
+/* line 604, ../sass/custom.scss */
 .column-right {
   width: 25%;
   text-align: right;
 }
 
-/* line 606, ../sass/custom.scss */
+/* line 609, ../sass/custom.scss */
 .type {
   font-family: 'lato', sans-serif;
   margin-top: 30px;
@@ -636,52 +641,52 @@ PRICES
   font-weight: 600;
 }
 
-/* line 613, ../sass/custom.scss */
+/* line 616, ../sass/custom.scss */
 .price-item {
   font-size: 16px;
   margin: 0;
 }
 
-/* line 618, ../sass/custom.scss */
+/* line 621, ../sass/custom.scss */
 .price-item.finstil {
   margin-top: 15px;
   font-size: 14px;
 }
 
-/* line 623, ../sass/custom.scss */
+/* line 626, ../sass/custom.scss */
 .container.prislista {
   margin-top: 30px;
 }
 
-/* line 627, ../sass/custom.scss */
+/* line 630, ../sass/custom.scss */
 .row.prislista {
   margin: 10px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 632, ../sass/custom.scss */
+  /* line 635, ../sass/custom.scss */
   .priceList {
     width: 320px;
     padding: 50px 30px;
     margin: 50px auto !important;
   }
 
-  /* line 637, ../sass/custom.scss */
+  /* line 640, ../sass/custom.scss */
   .type {
     font-size: 18px;
   }
 
-  /* line 640, ../sass/custom.scss */
+  /* line 643, ../sass/custom.scss */
   .price-item {
     font-size: 13px;
   }
 
-  /* line 643, ../sass/custom.scss */
+  /* line 646, ../sass/custom.scss */
   .finstil {
     font-size: 12px !important;
   }
 
-  /* line 646, ../sass/custom.scss */
+  /* line 649, ../sass/custom.scss */
   .row.prislista {
     flex-wrap: nowrap;
   }
@@ -691,84 +696,78 @@ PRICES
 ABOUT
 
 --------------------------- */
-/* line 658, ../sass/custom.scss */
+/* line 661, ../sass/custom.scss */
 .p-5 {
   padding: 3rem !important;
 }
 
-/* line 662, ../sass/custom.scss */
+/* line 665, ../sass/custom.scss */
 .om-oss {
   margin: 0 70px;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 667, ../sass/custom.scss */
+  /* line 670, ../sass/custom.scss */
   .p-5 {
     text-align: center;
     padding: 1rem !important;
   }
-  /* line 670, ../sass/custom.scss */
+  /* line 673, ../sass/custom.scss */
   .p-5 img {
     max-width: 50%;
   }
 
-  /* line 674, ../sass/custom.scss */
+  /* line 677, ../sass/custom.scss */
   .om-oss {
     margin: 40px 40px;
   }
 }
-/* line 679, ../sass/custom.scss */
-.fa-quote-left {
-  font-size: 25px;
-  color: #F0D4D1;
-  margin: 20px;
-}
-
-/* line 685, ../sass/custom.scss */
+/* line 682, ../sass/custom.scss */
 #about {
   padding: 80px 0;
 }
 
-/* line 689, ../sass/custom.scss */
+/* line 686, ../sass/custom.scss */
 .quote-item {
   margin: 30px 0 0 0;
   padding-right: 90px;
   padding-left: 90px;
   text-align: center;
 }
-/* line 694, ../sass/custom.scss */
+/* line 691, ../sass/custom.scss */
 .quote-item img {
   margin: 20px;
 }
-/* line 697, ../sass/custom.scss */
+/* line 694, ../sass/custom.scss */
 .quote-item h3 {
+  font-style: italic;
   text-align: left;
   font-size: 95%;
   margin: 15px 0 20px 0;
 }
-/* line 702, ../sass/custom.scss */
+/* line 700, ../sass/custom.scss */
 .quote-item h4 {
   text-align: right;
   font-size: 95%;
   color: #e3b0ab;
 }
 
-/* line 709, ../sass/custom.scss */
+/* line 707, ../sass/custom.scss */
 .wrap-quote {
   height: 190px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 715, ../sass/custom.scss */
+  /* line 713, ../sass/custom.scss */
   .quote-item {
     margin: 20px 0 0 0;
   }
-  /* line 717, ../sass/custom.scss */
+  /* line 715, ../sass/custom.scss */
   .quote-item img {
     margin: 10px;
   }
 
-  /* line 721, ../sass/custom.scss */
+  /* line 719, ../sass/custom.scss */
   .wrap-quote {
     width: 150px;
     height: auto;
@@ -777,21 +776,21 @@ ABOUT
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 731, ../sass/custom.scss */
+  /* line 729, ../sass/custom.scss */
   .quote-item {
     padding-right: 30px;
     padding-left: 30px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 739, ../sass/custom.scss */
+  /* line 737, ../sass/custom.scss */
   .quote-item {
     padding-right: 50px;
     padding-left: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 747, ../sass/custom.scss */
+  /* line 745, ../sass/custom.scss */
   .quote-item h3 {
     height: auto;
   }
@@ -801,21 +800,21 @@ ABOUT
 CONTACT FORM (AGENCY)
 
 --------------------------*/
-/* line 760, ../sass/custom.scss */
+/* line 758, ../sass/custom.scss */
 #contact {
   padding: 70px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 766, ../sass/custom.scss */
+/* line 764, ../sass/custom.scss */
 #contactForm {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 772, ../sass/custom.scss */
+/* line 770, ../sass/custom.scss */
 #defaultBtn {
   background-color: #dae0e5;
   /*border: 1px solid darken($background_gray, 10%);*/
@@ -830,51 +829,51 @@ CONTACT FORM (AGENCY)
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 782, ../sass/custom.scss */
+/* line 780, ../sass/custom.scss */
 #defaultBtn:hover, #defaultBtn:active, #defaultBtn:focus {
   background-color: #F0D4D1;
   color: #595959;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 792, ../sass/custom.scss */
+  /* line 790, ../sass/custom.scss */
   #contact {
     padding: 70px 30px;
   }
 
-  /* line 795, ../sass/custom.scss */
+  /* line 793, ../sass/custom.scss */
   #defaultBtn {
     width: 200px;
     font-size: 14px;
   }
 }
-/* line 801, ../sass/custom.scss */
+/* line 799, ../sass/custom.scss */
 .form-group {
   margin-top: 20px;
   margin-bottom: 25px;
 }
 
-/* line 806, ../sass/custom.scss */
+/* line 804, ../sass/custom.scss */
 input {
   padding: 20px;
 }
 
-/* line 810, ../sass/custom.scss */
+/* line 808, ../sass/custom.scss */
 textarea {
   padding: 20px;
 }
 
-/* line 814, ../sass/custom.scss */
+/* line 812, ../sass/custom.scss */
 input.form-control {
   height: auto;
 }
 
-/* line 818, ../sass/custom.scss */
+/* line 816, ../sass/custom.scss */
 textarea.form-control {
   height: 166px;
 }
 
-/* line 822, ../sass/custom.scss */
+/* line 820, ../sass/custom.scss */
 .form-control:focus {
   border: 2px solid #F0D4D1;
   box-shadow: none;
@@ -885,19 +884,19 @@ textarea.form-control {
 INSTAGRAM FEED 
 
 --------------------------*/
-/* line 835, ../sass/custom.scss */
+/* line 833, ../sass/custom.scss */
 #instaLink {
   font-size: 24px;
   text-transform: uppercase;
   font-family: lato;
 }
 
-/* line 841, ../sass/custom.scss */
+/* line 839, ../sass/custom.scss */
 #instafeed {
   margin: 20px 0;
 }
 
-/* line 845, ../sass/custom.scss */
+/* line 843, ../sass/custom.scss */
 .instaimg img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -907,16 +906,29 @@ INSTAGRAM FEED
 }
 
 @media only screen and (max-width: 575px) {
-  /* line 854, ../sass/custom.scss */
+  /* line 852, ../sass/custom.scss */
   .instaimg {
     text-align: center;
   }
 }
-/* line 859, ../sass/custom.scss */
+/* line 857, ../sass/custom.scss */
 .instaimg img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
   -webkit-opacity: 0.8;
+  cursor: pointer;
+}
+
+/* load more button */
+/* line 867, ../sass/custom.scss */
+#btn-instafeed-load {
+  color: #fff;
+  background: #26a3ff;
+  font-size: 16px;
+  margin: 20px auto;
+  padding: 8px 40px;
+  display: block;
+  border: none;
 }
 
 /*-----------------------
@@ -924,7 +936,7 @@ INSTAGRAM FEED
 PMG GRID
 
 -----------------------*/
-/* line 872, ../sass/custom.scss */
+/* line 884, ../sass/custom.scss */
 .grid {
   position: relative;
   clear: both;
@@ -934,7 +946,7 @@ PMG GRID
   text-align: center;
 }
 
-/* line 881, ../sass/custom.scss */
+/* line 893, ../sass/custom.scss */
 .grid figure {
   position: relative;
   overflow: hidden;
@@ -945,7 +957,7 @@ PMG GRID
   cursor: pointer;
 }
 
-/* line 891, ../sass/custom.scss */
+/* line 903, ../sass/custom.scss */
 .grid figure img {
   position: relative;
   display: block;
@@ -954,7 +966,7 @@ PMG GRID
   opacity: 1;
 }
 
-/* line 900, ../sass/custom.scss */
+/* line 912, ../sass/custom.scss */
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -963,7 +975,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-/* line 905, ../sass/custom.scss */
+/* line 917, ../sass/custom.scss */
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);

@@ -7,7 +7,13 @@ $(document).ready(function () {
         , resolution: 'standard_resolution'
         , accessToken: '4741714911.1677ed0.1e3cc902ae3b4f2f93518e442cac6fca'
         , sortBy: 'most-recent'
-        , template: '<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 instaimg"><a class="instagram-{{orientation}} href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>'
+        , template: '<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>'
+        , after: function () {
+            // disable button if no more results to load
+            if (!this.hasNext()) {
+                btnInstafeedLoad.setAttribute('disabled', 'disabled');
+            }
+        }
     , });
     userFeed.run();
     // This will create a single gallery from all elements that have class "gallery-item"
@@ -20,3 +26,7 @@ $(document).ready(function () {
     });
 });
 //insta feed ends
+var btnInstafeedLoad = document.getElementById("btn-instafeed-load");
+btnInstafeedLoad.addEventListener("click", function () {
+    userFeed.next()
+});
