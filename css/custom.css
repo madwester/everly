@@ -328,7 +328,7 @@ CAROUSEL
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 335, ../sass/custom.scss */
   .carousel-caption {
-    top: 100px;
+    top: 70px;
   }
 }
 @media only screen and (max-width: 767px) {
