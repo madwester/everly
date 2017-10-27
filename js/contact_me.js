@@ -32,7 +32,7 @@ $(function () {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
-                    $('#success > .alert-success').append("<strong>Tack för ditt meddelande. Vi kontaktar dig inom kort.</strong>");
+                    $('#success > .alert-success').append("<strong>Tack för ditt meddelande. Vi kontaktar dig inom kort. </strong>");
                     $('#success > .alert-success').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
@@ -41,7 +41,7 @@ $(function () {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
-                    $('#success > .alert-danger').append($("<strong>").text("Hej " + firstName + ", ditt meddelande gick för tillfället ej att skicka. Maila mig gärna direkt till frida@everlystockholm.se istället."));
+                    $('#success > .alert-danger').append($("<strong>").text("Ursäkta " + firstName + ", ditt meddelande kunde tyvärr ej skickas. Vänligen, maila direkt till frida@everlystockholm.se"));
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");

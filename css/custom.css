@@ -503,7 +503,7 @@ SERVICES
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003498}}
   .card-text {
-    height: 380px;
+    height: 440px;
     font-size: 14px;
   }
 }
@@ -888,18 +888,23 @@ INSTAGRAM FEED
 
 --------------------------*/
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003836}}
+#instagram-feed {
+  padding: 70px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003840}}
 #instaLink {
   font-size: 24px;
   text-transform: uppercase;
   font-family: lato;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003842}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003846}}
 #instafeed {
   margin: 20px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003846}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003850}}
 .instaimg img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -909,12 +914,12 @@ INSTAGRAM FEED
 }
 
 @media only screen and (max-width: 575px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003855}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003859}}
   .instaimg {
     text-align: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003860}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003864}}
 .instaimg img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
@@ -923,7 +928,7 @@ INSTAGRAM FEED
 }
 
 /* load more button */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003870}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003874}}
 #btn-instafeed-load {
   background-color: #dae0e5;
   padding: 1rem 2rem;
@@ -937,7 +942,7 @@ INSTAGRAM FEED
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003883}}
 #btn-instafeed-load:hover {
   background-color: #F0D4D1;
   color: #595959;
@@ -948,7 +953,7 @@ INSTAGRAM FEED
 PMG GRID
 
 -----------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003893}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003897}}
 .grid {
   position: relative;
   clear: both;
@@ -958,7 +963,7 @@ PMG GRID
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003902}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003906}}
 .grid figure {
   position: relative;
   overflow: hidden;
@@ -969,7 +974,7 @@ PMG GRID
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003912}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003916}}
 .grid figure img {
   position: relative;
   display: block;
@@ -978,7 +983,7 @@ PMG GRID
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003921}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003925}}
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -987,7 +992,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003926}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003930}}
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
@@ -1024,7 +1029,7 @@ figure.effect-duke:hover img {
         display: none;
     }
 }*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003959}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003964}}
 .less-padding {
   padding: 0.8rem !important;
 }
