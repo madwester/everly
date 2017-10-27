@@ -761,6 +761,22 @@ CONTACT FORM (AGENCY)
 
 --------------------------*/
 
+#sendMessageButton {
+    background-color: darken($background_gray, 10%);
+    padding: 1rem 2rem;
+    width: 227px;
+    margin-top: 10px;
+    color: $brand-text-color;
+    border-radius: 10px;
+    @include ease-animation(all,
+    0.2s);
+    &:hover {
+        //background-color: lighten($pink, 10%);
+        background-color: $everly_pink;
+        color: $brand-text-color;
+    }
+}
+
 #contact {
     padding: 70px;
     text-align: center;
@@ -773,30 +789,11 @@ CONTACT FORM (AGENCY)
     margin-right: auto;
 }
 
-#defaultBtn {
-    background-color: darken($background_gray, 10%);
-    /*border: 1px solid darken($background_gray, 10%);*/
-    padding: 1rem 2rem;
-    width: 227px;
-    margin-top: 10px;
-    color: $brand-text-color;
-    border-radius: 10px;
-    @include ease-animation(all,
-    0.2s);
-    &:hover,
-    &:active,
-    &:focus {
-        //background-color: lighten($pink, 10%);
-        background-color: $everly_pink;
-        color: $brand-text-color;
-    }
-}
-
 @media only screen and (max-width: 767px) {
     #contact {
         padding: 70px 30px;
     }
-    #defaultBtn {
+    #sendMessageButton {
         width: 200px;
         font-size: 14px;
     }
@@ -931,7 +928,7 @@ figure.effect-duke:hover img {
     @include transform(scale3d(1.08, 1.08, 1));
 }
 
-#go-up-btn {
+/*#go-up-btn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -957,7 +954,7 @@ figure.effect-duke:hover img {
     #go-up-btn {
         display: none;
     }
-}
+}*/
 
 .less-padding {
     padding: 0.8rem !important;
