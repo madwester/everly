@@ -49,8 +49,6 @@
 //XL
 @media only screen and (min-width: 1580px) {}
 
-
-
 */
 
 $pink: #F7B4BA;
@@ -69,10 +67,6 @@ $off-white: #F5F3EE;
 ALL OVER THE PAGE
 
 ----------------------*/
-
-span {
-    font-size: 70%;
-}
 
 .fa,
 a {
@@ -322,7 +316,7 @@ CAROUSEL
 }
 
 .carousel-item.zoom-left {
-    background-position: 10%;
+    background-position: left;
 }
 
 .carousel-caption {
@@ -937,11 +931,6 @@ figure.effect-duke:hover img {
     @include transform(scale3d(1.08, 1.08, 1));
 }
 
-
-/*#to-top {
-    display: block;
-}*/
-
 #go-up-btn {
     display: none;
     position: fixed;
@@ -964,58 +953,12 @@ figure.effect-duke:hover img {
     }
 }
 
-/*ADDDDDDDDDDDDDDDDDED:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@media only screen and (max-width: 992px) {
+    #go-up-btn {
+        display: none;
+    }
+}
 
-*/
-
-// Styling for the contact section
-section#contact {
-    background-image: url('../img/map-image.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    .section-heading {
-        color: white;
-    }
-    .form-group {
-        margin-bottom: 25px;
-        input,
-        textarea {
-            padding: 20px;
-        }
-        input.form-control {
-            height: auto;
-        }
-        textarea.form-control {
-            height: 236px;
-        }
-    }
-    .form-control:focus {
-        border-color: red;
-        box-shadow: none;
-    }
-    ::-webkit-input-placeholder {
-        font-weight: 700;
-        color: red;
-        @include heading-font;
-    }
-    :-moz-placeholder {
-        font-weight: 700;
-        color: red;
-        /* Firefox 18- */
-        @include heading-font;
-    }
-    ::-moz-placeholder {
-        font-weight: 700;
-        color: $gray-lighter;
-        /* Firefox 19+ */
-        @include heading-font;
-    }
-    :-ms-input-placeholder {
-        font-weight: 700;
-        color: red;
-        @include heading-font;
-    }
-    .text-danger {
-        color: #e74c3c;
-    }
+.less-padding {
+    padding: 0.8rem !important;
 }
