@@ -667,30 +667,39 @@ PRICES
   margin: 10px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 450px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003641}}
   .priceList {
     width: 320px;
     padding: 50px 30px;
     margin: 50px auto !important;
   }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003646}}
+}
+@media only screen and (min-width: 451px) and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003649}}
+  .priceList {
+    width: 420px;
+    padding: 50px 30px;
+    margin: 50px auto !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003657}}
   .type {
     font-size: 18px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003649}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003660}}
   .price-item {
     font-size: 13px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003652}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003663}}
   .finstil {
     font-size: 12px !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003655}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003666}}
   .row.prislista {
     flex-wrap: nowrap;
   }
@@ -700,78 +709,78 @@ PRICES
 ABOUT
 
 --------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003667}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003678}}
 .p-5 {
   padding: 3rem !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003671}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003682}}
 .om-oss {
   margin: 0 70px;
 }
 
 @media only screen and (max-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003676}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003687}}
   .p-5 {
     text-align: center;
     padding: 1rem !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003679}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003690}}
   .p-5 img {
     max-width: 50%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003683}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003694}}
   .om-oss {
     margin: 40px 40px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003688}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003699}}
 #about {
   padding: 80px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003703}}
 .quote-item {
   margin: 30px 0 0 0;
   padding-right: 90px;
   padding-left: 90px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003697}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003708}}
 .quote-item img {
   margin: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003700}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003711}}
 .quote-item h3 {
   font-style: italic;
   text-align: left;
   font-size: 95%;
   margin: 15px 0 20px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003706}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003717}}
 .quote-item h4 {
   text-align: right;
   font-size: 95%;
   color: #e3b0ab;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003713}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003724}}
 .wrap-quote {
   height: 190px;
 }
 
 @media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003719}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003730}}
   .quote-item {
     margin: 20px 0 0 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003721}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003732}}
   .quote-item img {
     margin: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003725}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003736}}
   .wrap-quote {
     width: 150px;
     height: auto;
@@ -780,21 +789,21 @@ ABOUT
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003746}}
   .quote-item {
     padding-right: 30px;
     padding-left: 30px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003754}}
   .quote-item {
     padding-right: 50px;
     padding-left: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003762}}
   .quote-item h3 {
     height: auto;
   }
@@ -804,7 +813,7 @@ ABOUT
 CONTACT FORM (AGENCY)
 
 --------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003764}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003775}}
 #sendMessageButton {
   background-color: #dae0e5;
   padding: 1rem 2rem;
@@ -818,20 +827,20 @@ CONTACT FORM (AGENCY)
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003784}}
 #sendMessageButton:hover {
   background-color: #F0D4D1;
   color: #595959;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003780}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003791}}
 #contact {
   padding: 70px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003786}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003797}}
 #contactForm {
   max-width: 960px;
   margin-left: auto;
@@ -839,44 +848,44 @@ CONTACT FORM (AGENCY)
 }
 
 @media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003793}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003804}}
   #contact {
     padding: 70px 30px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003796}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003807}}
   #sendMessageButton {
     width: 200px;
     font-size: 14px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003802}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003813}}
 .form-group {
   margin-top: 20px;
   margin-bottom: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003807}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003818}}
 input {
   padding: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003811}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003822}}
 textarea {
   padding: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003815}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003826}}
 input.form-control {
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003819}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003830}}
 textarea.form-control {
   height: 166px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003823}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003834}}
 .form-control:focus {
   border: 2px solid #F0D4D1;
   box-shadow: none;
@@ -887,24 +896,24 @@ textarea.form-control {
 INSTAGRAM FEED 
 
 --------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003847}}
 #instagram-feed {
   padding: 70px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003840}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003851}}
 #instaLink {
   font-size: 24px;
   text-transform: uppercase;
   font-family: lato;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003846}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003857}}
 #instafeed {
   margin: 20px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003850}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003861}}
 .instaimg img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -914,12 +923,12 @@ INSTAGRAM FEED
 }
 
 @media only screen and (max-width: 575px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003859}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003870}}
   .instaimg {
     text-align: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003864}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003875}}
 .instaimg img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
@@ -928,7 +937,7 @@ INSTAGRAM FEED
 }
 
 /* load more button */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003874}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003885}}
 #btn-instafeed-load {
   background-color: #dae0e5;
   padding: 1rem 2rem;
@@ -942,7 +951,7 @@ INSTAGRAM FEED
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003883}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003894}}
 #btn-instafeed-load:hover {
   background-color: #F0D4D1;
   color: #595959;
@@ -953,7 +962,7 @@ INSTAGRAM FEED
 PMG GRID
 
 -----------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003897}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003908}}
 .grid {
   position: relative;
   clear: both;
@@ -963,7 +972,7 @@ PMG GRID
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003906}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003917}}
 .grid figure {
   position: relative;
   overflow: hidden;
@@ -974,7 +983,7 @@ PMG GRID
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003916}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003927}}
 .grid figure img {
   position: relative;
   display: block;
@@ -983,7 +992,7 @@ PMG GRID
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003925}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003936}}
 figure.effect-duke img {
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -992,7 +1001,7 @@ figure.effect-duke img {
   transition: all 0.35s ease-in-out;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003930}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003941}}
 figure.effect-duke:hover img {
   opacity: 1;
   -webkit-transform: scale3d(1.08, 1.08, 1);
@@ -1029,7 +1038,7 @@ figure.effect-duke:hover img {
         display: none;
     }
 }*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003964}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maddie\/Desktop\/EVERLY_SASS\/sass\/custom\.scss}line{font-family:\00003975}}
 .less-padding {
   padding: 0.8rem !important;
 }

@@ -637,12 +637,23 @@ PRICES
     margin: 10px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 450px) {
     .priceList {
         width: 320px;
         padding: 50px 30px;
         margin: 50px auto!important;
     }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 767px) {
+    .priceList {
+        width: 420px;
+        padding: 50px 30px;
+        margin: 50px auto!important;
+    }
+}
+
+@media only screen and(max-width: 767px) {
     .type {
         font-size: 18px;
     }
