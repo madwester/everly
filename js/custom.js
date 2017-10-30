@@ -23,7 +23,3 @@ var onMapClickHandler = function (event) {
     }
     // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-    scrollFunction()
-};

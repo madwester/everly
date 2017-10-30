@@ -71,9 +71,7 @@ ALL OVER THE PAGE
 .fa,
 a {
     color: $brand-text-color;
-    &:hover,
-    &:active,
-    &:focus {
+    &:hover {
         color: $everly_pink;
     }
 }
@@ -117,9 +115,7 @@ p {
     border: 0;
     padding: 10px 30px;
     @include ease-animation(all, 0.2s);
-    &:hover,
-    &:active,
-    &:focus {
+    &:hover {
         //background-color: lighten($pink, 10%);
         background-color: $everly_pink;
         color: $brand-text-color;
@@ -290,9 +286,7 @@ CAROUSEL
 
 .btn.white {
     background-color: white;
-    &:hover,
-    &:active,
-    &:focus {
+    &:hover {
         background-color: darken($background_gray, 10%);
     }
 }
@@ -406,15 +400,11 @@ FOOTER
             i {
                 font-size: 23px;
                 padding: 16px 0px;
-                &:hover,
-                &:active,
-                &:focus {
+                &:hover {
                     color: $off-white;
                 }
             }
-            &:hover,
-            &:active,
-            &:focus {
+            &:hover {
                 background-color: $brand-text-color;
                 i {
                     color: $off-white;
@@ -471,7 +461,7 @@ SERVICES
 }
 
 .card-text {
-    height: 380px;
+    height: 310px;
     font-size: 14px;
     margin: 10px;
 }
@@ -496,7 +486,7 @@ SERVICES
         height: 80px;
     }
     .card-text {
-        height: 440px;
+        height: 380px;
         font-size: 14px;
     }
 }
@@ -507,12 +497,12 @@ SERVICES
         height: 50px;
     }
     .card-text {
-        height: 310px;
+        height: 350px;
         font-size: 14px;
     }
-    .smaller-text {
+    /*.smaller-text {
         font-size: 12px!important;
-    }
+    }*/
 }
 
 //MD
@@ -521,7 +511,7 @@ SERVICES
         height: 340px;
     }
     .smaller-text {
-        font-size: 12px!important;
+        //font-size: 12px!important;
     }
 }
 
